@@ -6,7 +6,7 @@ The first VideoQA datasets towards egocentric visuall assistance for the Blind. 
 2) We provide well-classified question types and multiple ground-truth answer annotations for better evaluation and analysis, the answers are timestamp-specific to support live QA.
 3) GPT-4o and Gemini 2.5 level intelligence can only achieves accuracy of 55%~60%, falling behind human by a whopping ~27%.
 4) Our comprehensive analyses elicit three major challenges: ```Egocentric dynamic scene understanding```, ```Real-time context aware user intention reasoning```, and ```Assistive answer generation```.
-5) A blind-specific prompt consistently benefits answering different types of questions.
+5) A blind-specific prompt consistently benefits answering different types of questions, indicating a data difference between EgoBlind and common VideoQA. 
 6) Instruction tuning with EgoBlind training data can signifiantly improve the open-source model performances (e.g., improving InternVL2.5-8B from 55.8% to 62.1%,  surpassing the SOTA GPT-4o by 1.5%).
 
 ## Data Examples
