@@ -8,7 +8,7 @@ The videos are collected from famous video media platform, such as Bilibili and 
 3) Blind User Annotation (~300): For some videos, we introduce their major contents to the blind individuals and invite them to annotate assistive questions when confronted with the visual situations.
 
 ## Data Examples
-
+![](EgoBlind.jpg)
 ## Download
 Please download EgoBlind from [Google Driven](https://drive.google.com/drive/folders/1MHY7COE0hARiGe-3uO3_vO5PPLhFx2nZ?usp=sharing) (about 80G). Optionally, you can download the [test set](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing) for evaluation purpose (about 32G).  
 
