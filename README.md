@@ -14,6 +14,12 @@ The first VideoQA dataset collected from real blind people towards egocentric vi
 ## Download
 Please download EgoBlind from [Google Driven](https://drive.google.com/drive/folders/1MHY7COE0hARiGe-3uO3_vO5PPLhFx2nZ?usp=sharing) (about 80G). Optionally, you can download the [test set](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing) for evaluation purpose (about 32G).  
 
+## Evaluation
+We provide the evaluation script along with an example prediction file for testing. Please ensure that you have an OpenAI API key before running the script:
+```
+python eval.py
+```
+
 ## Benchmarking
 | Methods              | LLM                | Res.     | #F      | Tool Use   | Information | Navigation | Safety    | Communication | Resource  | Average   |
 |----------------------|--------------------|----------|---------|------------|-------------|------------|-----------|----------------|-----------|-----------|
