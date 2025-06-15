@@ -12,7 +12,7 @@ The first VideoQA dataset collected from real blind people towards egocentric vi
 ## Data Examples
 ![EgoBlind](EgoBlind.jpg)
 ## Download
-Please download EgoBlind from [Google Driven](https://drive.google.com/drive/folders/1MHY7COE0hARiGe-3uO3_vO5PPLhFx2nZ?usp=sharing) (about 80G). Optionally, you can download the [test set](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing) for evaluation purpose (about 32G).  
+We are glad to share that the dataset can be freely used for research purpose, but with video source being cited for distribution. Please download EgoBlind from [Google Driven](https://drive.google.com/drive/folders/1MHY7COE0hARiGe-3uO3_vO5PPLhFx2nZ?usp=sharing) (about 80G). Optionally, you can download the [test set](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing) for evaluation purpose (about 32G).  
 
 ## Evaluation
 We provide the evaluation script along with an example prediction file for testing. Please ensure that you have an OpenAI API key before running the script:
@@ -40,6 +40,16 @@ python eval.py
 | Gemini 2.0 Flash     | -                  | ori      | -    | 57.8 / 3.0 | 58.8 / 3.0 | 48.4 / 2.7  | 56.1 / 2.8 | 52.8 / 2.7 | 48.6 / 2.6 | 55.7 / 2.9 |
 | Gemini 2.5 Flash     | -                  | ori      | -    | 66.7 / 3.1 | 57.9 / 3.0 | **50.3 / 2.7** | 51.6 / 2.9 | 52.5 / 2.6 | **58.4 / 3.0** | 56.3 / 2.9 |
 | GPT-4o              | -                  | ori      | 1fps    | 65.3 / 3.4 | **64.7 / 3.3** | 51.0 / 2.9 | **58.8 / 3.0** | **62.4 / 3.1** | 55.5 / 2.9 | **60.6 / 3.1** |
+
+## Cite
+```
+@article{xiao2025egoblind,
+  title={EgoBlind: Towards Egocentric Visual Assistance for the Blind},
+  author={Xiao, Junbin and Huang, Nanxin and Qiu, Hao and Tao, Zhulin and Yang, Xun and Hong, Richang and Wang, Meng and Yao, Angela},
+  journal={arXiv preprint arXiv:2503.08221},
+  year={2025}
+}
+```
 
 ## License
 The dataset is strictly for research purpose. By downloading it, you automatically agree to our terms of use.
