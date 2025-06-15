@@ -2204,7 +2204,6 @@
 {'question_id': 'v_01379_8', 'pred': 'The shelves display various ceramic items, including cups, mugs, and small figurines.'}
 {'question_id': 'v_01379_9', 'pred': 'You do not have a cup or mug in front of you.'}
 {'question_id': 'v_01379_10', 'pred': 'The cup appears to be small and white, with a simple design. It has a handle and seems to be made of ceramic.'}
-{'question_id': 'v_01379_11', 'pred': 'Yes, this is a cup.'}
 {'question_id': 'v_01379_12', 'pred': 'No, there is no writing or label on the item you are holding.'}
 {'question_id': 'v_01379_13', 'pred': 'The paintbrush is on the table.'}
 {'question_id': 'v_01379_14', 'pred': 'The paintbrush is on the table, which is in front of you. It appears to be within easy reach, likely a few inches away from where you are sitting.'}
@@ -2410,7 +2409,6 @@
 {'question_id': 'v_01452_3', 'pred': 'Yes, there is a shop ahead.'}
 {'question_id': 'v_01452_4', 'pred': "I don't know."}
 {'question_id': 'v_01452_5', 'pred': "I don't know."}
-{'question_id': 'v_01452_6', 'pred': 'You paid 20 yuan.'}
 {'question_id': 'v_01453_1', 'pred': "I don't know."}
 {'question_id': 'v_01453_2', 'pred': "I don't know."}
 {'question_id': 'v_01454_1', 'pred': "No, there doesn't appear to be an obstacle ahead. The path seems clear."}
@@ -2420,7 +2418,6 @@
 {'question_id': 'v_01458_1', 'pred': 'No, you are not walking on the sidewalk. You are walking on the street.'}
 {'question_id': 'v_01459_1', 'pred': "No, there doesn't appear to be an obstacle ahead."}
 {'question_id': 'v_01460_1', 'pred': "No, there doesn't appear to be an obstacle ahead. The path seems clear."}
-{'question_id': 'v_01461_1', 'pred': "I don't know."}
 {'question_id': 'v_01461_2', 'pred': "I don't know."}
 {'question_id': 'v_01461_3', 'pred': 'No, there is no one sitting next to you.'}
 {'question_id': 'v_01462_1', 'pred': 'The blind path is on the right side of the frame, running parallel to the sidewalk.'}

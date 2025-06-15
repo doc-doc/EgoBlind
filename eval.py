@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 # Replace with your actual OpenAI API key
 api_key = 'YOUR_API_KEY'
-
+api_key = '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'
 
 def parse_args():
     """
@@ -72,8 +72,10 @@ def annotate(key, qa_set, output_dir):
         ],
         "max_tokens": 1000
     }
-
+    
     response_message = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
+    print(response_message)
+    print("Fail to get response from OpenAI.")
     data = response_message.json()
     first_choice = data['choices'][0]['message']['content']
     response_dict = ast.literal_eval(first_choice)
