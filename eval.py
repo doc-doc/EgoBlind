@@ -1,231 +1,222 @@
-import requests
 import os
-import argparse
 import json
 import ast
-from multiprocessing.pool import Pool
+import argparse
+import requests
+import pandas as pd
 from tqdm import tqdm
 
-api_key='API_KEY' #Replace with your OpenAI key
+# Replace with your actual OpenAI API key
+api_key = 'YOUR_API_KEY'
+
+
 def parse_args():
-    parser = argparse.ArgumentParser(description="question-answer-evaluation-using-gpt-4o-mini")
-    parser.add_argument("--num_tasks", default=80, type=int, help="Number of splits.")
-    args = parser.parse_args()
-    return args
-
-
-def annotate(prediction_set, caption_files, output_dir, args):
     """
-    Evaluates question and answer pairs using GPT-4o-mini
-    Returns a score for correctness.
+    Parse command-line arguments for prediction file and test file paths.
     """
-    # Set the OpenAI API key.
-    for file in caption_files:
-        key = file[:-5] # Strip file extension
-        qa_set = prediction_set[key]
-        question = qa_set['q']
-        answer0 = qa_set['a0']
-        answer1 = qa_set['a1']
-        answer2 = qa_set['a2']
-        answer3 = qa_set['a3']
-        pred = qa_set['pred']
-        print(pred)
-            # Compute the correctness score
-        content_system =("You are an intelligent chatbot designed for evaluating the correctness of generative outputs for question-answer pairs. "
-                        "Your task is to compare the predicted answer with the correct answer and determine if they match meaningfully. Here's how you can accomplish the task:"
-                        "------"
-                        "##INSTRUCTIONS: "
-                        "- Focus on meaningful matches: Assess whether the predicted answer and the correct answer have a meaningful match, not just literal word-for-word matches.\n"
-                        "- Criteria for Correctness:The predicted answer is considered correct if it reasonably matches any of the four standard answers, recognizing that synonyms or varied expressions that convey the same meaning are acceptable.\n"
-                        "- Allow for Paraphrasing: Understand that different wording that conveys the same fundamental idea is valid. Evaluate if the essence of the predicted answer captures the core information of the correct answer.\n"
-                        "- Flexibility in Evaluation: Use judgment to decide if variations in the predicted answer still correctly address the question, even if they do not directly replicate the correct answer's phrasing.for example:when the correct answer is 'Left front',Predicted Answer:' About ten meters to your left front',these two answers match.\n"                        
-                        "Your responses should be tailored specifically for blind individuals, ensuring that they do not rely on any visual elements, diagrams, or imagery for understanding. All explanations must be conveyed clearly through descriptive text, focusing on concepts, structures, and relationships that can be understood without the need for visual cues. Answers that include references to visual content or require visual interpretation will not be considered correct.bad example:pred:Follow the sign pointing right for tickets."
-                        )
-        content_list = [
-                    {
-                     "type": "text",
-                     "text":
-                     "You are an intelligent chatbot designed for evaluating the correctness of generative outputs for question-answer pairs. "
-                        "Your task is to compare the predicted answer with the correct answer and determine if they match meaningfully. Here's how you can accomplish the task:"
-                        "------"
-                        "INSTRUCTIONS: "
-                        "- Focus on meaningful matches: Assess whether the predicted answer and the correct answer have a meaningful match, not just literal word-for-word matches.\n"
-                        "- Criteria for Correctness:The predicted answer is considered correct if it reasonably matches any of the four standard answers, recognizing that synonyms or varied expressions that convey the same meaning are acceptable.\n"
-                        "- Allow for Paraphrasing: Understand that different wording that conveys the same fundamental idea is valid. Evaluate if the essence of the predicted answer captures the core information of the correct answer.\n"
-                        "- Flexibility in Evaluation: Use judgment to decide if variations in the predicted answer still correctly address the question, even if they do not directly replicate the correct answer's phrasing.for example:when the correct answer is 'Left front',Predicted Answer:' About ten meters to your left front',these two answers match.\n"
-                        "Please evaluate the following video-based question-answer pair:\n\n"
-                        f"Question: {question}\n"
-                        f"Correct Answer0: {answer0}\n"
-                        f"Correct Answer1: {answer1}\n"
-                        f"Correct Answer2: {answer2}\n"
-                        f"Correct Answer3: {answer3}\n"
-                        f"Predicted Answer: {pred}\n\n"
-                        "Provide your evaluation only as a yes/no and score where the score is an float value between 0 and 5, with 5 indicating the highest meaningful match. "
-                        "Please generate the response in the form of a Python dictionary string with keys 'pred' and 'score', where value of 'pred' is  a string of 'yes' or 'no' and value of 'score' is in INT, not STRING."
-                        "DO NOT PROVIDE ANY OTHER OUTPUT TEXT OR EXPLANATION. Only provide the Python dictionary string. "
-                        "For example, your response should look like this: {'pred': 'yes', 'score': 4}."
-                }
-            ]
-        headers = {
-                        "Content-Type": "application/json",
-                        "Authorization": f"Bearer {api_key}"
-                    }
+    parser = argparse.ArgumentParser(description="Evaluate question-answer predictions using GPT-4o-mini")
+    parser.add_argument("--pred_path", type=str, required=True, help="Path to the prediction .jsonl file")
+    parser.add_argument("--test_path", type=str, required=True, help="Path to the test set .csv file")
+    return parser.parse_args()
 
-        payload = {
-                        "model": "gpt-4o-mini",
-                        "messages": [
-                            {
-                                "role": "system",
-                                "content": content_system
-                            },
-                            {
-                                "role": "user",
-                                "content": content_list
-                            }
-                        ],
-                        "max_tokens": 1000,
-                        #"stream": True
-                    }
-        # Convert response to a Python dictionary.
-        response_message = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
-        data = response_message.json()
-        first_choice = data['choices'][0]['message']['content']
-        response_dict = ast.literal_eval(first_choice)
-        result_qa_pair = [response_dict, qa_set] # 将 response_dict 和原始的问答对 qa_set 组成一个列表 result_qa_pair。
 
-        # Save the question-answer pairs to a json file.
-        with open(f"{output_dir}/{key}.json", "w") as f:
-            json.dump(result_qa_pair, f)
-
-def append_to_txt(video_name, content, filename="output.txt"):
+def annotate(key, qa_set, output_dir):
     """
-    将生成的内容追加保存到TXT文件。
-
-    :param video_name: 视频名称。
-    :param content: GPT生成的内容。
-    :param filename: 保存内容的文件名。
+    Call OpenAI API to evaluate if the predicted answer meaningfully matches any correct answers.
+    Save the evaluation result as a JSON file per question.
     """
-    try:
-        with open(filename, 'a', encoding='utf-8') as file:
-            file.write(f"video_name: {video_name}\n")
-            file.write(f"content: {content}\n")
-            file.write("\n")  # 添加换行符分隔每次写入的内容
-        print(f"Output successfully appended to {filename}")
-    except Exception as e:
-        print(f"An error occurred while saving the file: {e}")
+    question = qa_set['q']
+    answer0 = qa_set['a0']
+    answer1 = qa_set['a1']
+    answer2 = qa_set['a2']
+    answer3 = qa_set['a3']
+    pred = qa_set['pred']
+
+    content_system = (
+        "You are an intelligent chatbot designed for evaluating the correctness of generative outputs for question-answer pairs. "
+        "Your task is to compare the predicted answer with the correct answer and determine if they match meaningfully. Here's how you can accomplish the task:"
+        "------"
+        "##INSTRUCTIONS: "
+        "- Focus on meaningful matches: Assess whether the predicted answer and the correct answer have a meaningful match, not just literal word-for-word matches.\n"
+        "- Criteria for Correctness: The predicted answer is considered correct if it reasonably matches any of the four standard answers, recognizing that synonyms or varied expressions that convey the same meaning are acceptable.\n"
+        "- Allow for Paraphrasing: Understand that different wording that conveys the same fundamental idea is valid.\n"
+        "- Flexibility in Evaluation: Use judgment to decide if variations in the predicted answer still correctly address the question, even if they do not directly replicate the correct answer's phrasing.\n"
+        "Answers should be tailored for blind individuals, avoiding reliance on any visual descriptions."
+    )
+
+    content_list = [{
+        "type": "text",
+        "text": (
+            f"Please evaluate the following video-based question-answer pair:\n\n"
+            f"Question: {question}\n"
+            f"Correct Answer0: {answer0}\n"
+            f"Correct Answer1: {answer1}\n"
+            f"Correct Answer2: {answer2}\n"
+            f"Correct Answer3: {answer3}\n"
+            f"Predicted Answer: {pred}\n\n"
+            "Provide your evaluation only as a yes/no and score where the score is a float value between 0 and 5, with 5 indicating the highest meaningful match. "
+            "Generate the response in the form of a Python dictionary string with keys 'pred' and 'score'. For example: {'pred': 'yes', 'score': 4}."
+        )
+    }]
+
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_key}"
+    }
+
+    payload = {
+        "model": "gpt-4o-mini",
+        "messages": [
+            {"role": "system", "content": content_system},
+            {"role": "user", "content": content_list}
+        ],
+        "max_tokens": 1000
+    }
+
+    response_message = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
+    data = response_message.json()
+    first_choice = data['choices'][0]['message']['content']
+    response_dict = ast.literal_eval(first_choice)
+
+    result_qa_pair = [response_dict, qa_set]
+
+    with open(os.path.join(output_dir, f"{key}.json"), "w") as f:
+        json.dump(result_qa_pair, f)
+
+
+def calculate_metrics(csv_path, json_path, output_path):
+    """
+    Calculate per-type and overall evaluation metrics (accuracy, average score).
+    Save final metrics as a JSON summary.
+    """
+    df = pd.read_csv(csv_path)
+    id_to_type = df.set_index('question_id')['type'].to_dict()
+
+    with open(json_path, 'r') as f:
+        json_data = json.load(f)
+
+    total_score = 0.0
+    stats = {}
+
+    for q_id, entries in json_data.items():
+        type_ = id_to_type.get(q_id)
+        if not type_:
+            print(f"Type not found for question ID: {q_id}")
+            continue
+
+        type_ = type_.strip().lower().rstrip('.')
+
+        if type_ not in stats:
+            stats[type_] = {"total": 0, "yes_count": 0, "score_sum": 0.0}
+
+        entry = entries[0]
+        pred = entry.get("pred", "").lower()
+        score = float(entry.get("score", 0))
+
+        stats[type_]["total"] += 1
+        if pred == "yes":
+            stats[type_]["yes_count"] += 1
+        stats[type_]["score_sum"] += score
+        total_score += score
+
+    result = {}
+    for type_, data in stats.items():
+        total = data["total"]
+        accuracy = data["yes_count"] / total if total else 0.0
+        avg_score = data["score_sum"] / total if total else 0.0
+        result[type_] = {
+            "total": total,
+            "accuracy": round(accuracy, 4),
+            "average_score": round(avg_score, 4)
+        }
+
+    total_yes = sum(d["yes_count"] for d in stats.values())
+    total_entries = sum(d["total"] for d in stats.values())
+    overall_accuracy = total_yes / total_entries if total_entries else 0
+    overall_avg_score = total_score / total_entries if total_entries else 0
+
+    result["total"] = {
+        "total": total_entries,
+        "accuracy": round(overall_accuracy, 4),
+        "average_score": round(overall_avg_score, 4)
+    }
+
+    with open(output_path, 'w') as f:
+        json.dump(result, f, indent=2)
+
 
 def main():
-    """
-    Main function to control the flow of the program.
-    """
-    # Parse arguments.
-    model = 'internvl2_5-8B'
     args = parse_args()
 
-    file = open(f"{model}.jsonl", encoding='utf-8')
-    new_pred_contents = [eval(i.strip()) for i in file.readlines()]
-    # Generating list of id's and corresponding files
-    id_list = [x['question_id'] for x in new_pred_contents] 
-    caption_files = [f"{id}.json" for id in id_list] 
+    # Load prediction and test files
+    with open(args.pred_path, encoding='utf-8') as f:
+        predictions = [eval(line.strip()) for line in f.readlines()]
 
-    output_dir = f"./{model}"
-    # Generate output directory if not exists.
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+    test_df = pd.read_csv(args.test_path)
+    test_data = test_df.set_index('question_id').to_dict(orient='index')
 
-    # Preparing dictionary of question-answer sets
+    model_name = os.path.basename(args.pred_path).split('.')[0]
+    output_dir = f"./{model_name}"
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Prepare prediction dictionary and expected output filenames
     prediction_set = {}
-    for sample in new_pred_contents:
-        id = sample['question_id']
-        question = sample['question']
-        answer0 = sample['answer0']
-        answer1 = sample['answer1']
-        answer2 = sample['answer2']
-        answer3 = sample['answer3']
-        type = sample['type']
-        pred = sample['pred']
-        
-        qa_set = {"q": question, "a0": answer0, "a1": answer1,"a2": answer2,"a3": answer3, "pred": pred,"type":type}
-        prediction_set[id] = qa_set
-        print(qa_set)
+    caption_files = []
 
-    num_tasks = args.num_tasks
+    for item in predictions:
+        qid = item['question_id']
+        if qid not in test_data:
+            print(f"Warning: Question ID {qid} not found in test data. Skipping...")
+            continue
 
-    # While loop to ensure that all captions are processed.
-    while True:
-        try:
-            # Files that have not been processed yet.
-            completed_files = os.listdir(output_dir)
-            print(f"completed_files: {len(completed_files)}")
+        question_info = test_data[qid]
+        prediction_set[qid] = {
+            "q": question_info['question'],
+            "a0": question_info['answer0'],
+            "a1": question_info['answer1'],
+            "a2": question_info['answer2'],
+            "a3": question_info['answer3'],
+            "type": question_info['type'],
+            "pred": item['pred']
+        }
+        caption_files.append(f"{qid}.json")
 
-            # Files that have not been processed yet.
-            incomplete_files = [f for f in caption_files if f not in completed_files]
-            print(f"incomplete_files: {len(incomplete_files)}")
+    completed_files = set(os.listdir(output_dir))
 
-            # Break the loop when there are no incomplete files
-            if len(incomplete_files) == 0:
-                break
-            if len(incomplete_files) <= num_tasks:
-                num_tasks = len(incomplete_files)
+    for file in tqdm(caption_files, desc="Evaluating predictions"):
+        if file in completed_files:
+            print(f"{file} has already been processed.")
+            continue
 
-            # Split tasks into parts.
-            part_len = len(incomplete_files) // num_tasks
-            all_parts = [incomplete_files[i:i + part_len] for i in range(0, len(incomplete_files), part_len)]
-            task_args = [(prediction_set, part, output_dir, args) for part in all_parts]
+        key = file.split('.')[0]
+        qa_set = prediction_set.get(key)
+        if qa_set:
+            annotate(key, qa_set, output_dir)
+        else:
+            print(f"Warning: No QA data found for key {key}. Skipping...")
 
-            # Use a pool of workers to process the files in parallel.
-            with Pool() as pool: # 创建一个进程池 pool
-                pool.starmap(annotate, task_args) # 对于 task_args 中的每个元素,都会调用 annotate 函数,并传入该元素作为参数。这些任务会被并行处理,以利用多核 CPU 的优势,提高处理速度。
+    # Combine individual JSON results into one dictionary
+    combined_results = {}
+    for fname in os.listdir(output_dir):
+        if fname.endswith(".json"):
+            with open(os.path.join(output_dir, fname), "r") as f:
+                result = json.load(f)
+                combined_results[fname.split('.')[0]] = result
 
-        except Exception as e:
-            print(f"Error: {e}")
+    combined_result_path = f"./result_{model_name}.json"
+    with open(combined_result_path, "w") as f:
+        json.dump(combined_results, f)
 
-    # Combine all the processed files into one
-    combined_contents = {}
-    json_path = f"./result_{model}.json"
+    # Calculate and display final evaluation metrics
+    metrics_output_path = f"./metrics_{model_name}.json"
+    calculate_metrics(args.test_path, combined_result_path, metrics_output_path)
 
-    # Iterate through json files
-    for file_name in os.listdir(output_dir):
-        if file_name.endswith(".json"):
-            file_path = os.path.join(output_dir, file_name)
-            with open(file_path, "r") as json_file:
-                content = json.load(json_file)
-                combined_contents[file_name[:-5]] = content
+    with open(metrics_output_path, "r") as f:
+        final_metrics = json.load(f)
 
-    # Write combined content to a json file
-    with open(json_path, "w") as json_file:
-        json.dump(combined_contents, json_file)
-    print("All evaluation completed!")
-
-    # Calculate average score and accuracy
-    score_sum = 0
-    count = 0
-    yes_count = 0
-    no_count = 0
-    for key, result in tqdm(combined_contents.items()):
-        try:
-            # Computing score
-            count += 1
-            score = result[0]['score']
-            score_sum += score
-
-            # Computing accuracy
-            pred = result[0]['pred']
-            if "yes" in pred.lower():
-                yes_count += 1
-            elif "no" in pred.lower():
-                no_count += 1
-        except:
-            print(result)
-
-    average_score = score_sum / count
-    accuracy = yes_count / (yes_count + no_count)
-    print("Yes count:", yes_count)
-    print("No count:", no_count)
-    print("Accuracy:", accuracy)
-    print("Average score:", average_score)
+    print("Evaluation Completed!")
+    print(json.dumps(final_metrics["total"], indent=2))
 
 
 if __name__ == "__main__":
     main()
-
