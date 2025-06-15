@@ -2,7 +2,7 @@
 The first VideoQA dataset collected from real blind people towards egocentric visual assistance. EgoBlind comprises 1,392 videos that record the daily lives of real blind users from a first-person perspective. It also features 5.3K questions directly posed or generated and verified by blind individuals to reflect their needs for visual assistance under various scenarios.
 
 **Highlights**:
-1) EgoBlind videos reflect the real daily life of the blind and the visually-impaired. Both the questions and answers are in-context, based on the users' personal activities and intentions.
+1) EgoBlind videos reflect the real daily life of the blind and the visually-impaired. Both the questions and answers are in-situation, based on the users' personal activities and intentions.
 2) We provide well-classified question types and multiple ground-truth answer annotations for better evaluation and analysis, the answers are timestamp-specific to support live QA.
 3) GPT-4o and Gemini 2.5 level intelligence can only achieves accuracy of 55%~60%, falling behind human by a whopping ~27%.
 4) Our comprehensive analyses elicit three major challenges: ```Egocentric dynamic scene understanding```, ```Real-time context aware user intention reasoning```, and ```Assistive answer generation```.
