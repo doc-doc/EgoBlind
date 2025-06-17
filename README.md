@@ -9,6 +9,12 @@ The first VideoQA dataset collected from real blind people towards egocentric vi
 5) A blind-specific prompt consistently benefits answering different types of questions, indicating a data difference between EgoBlind and common VideoQA. 
 6) Instruction tuning with EgoBlind training data can signifiantly improve the open-source model performances (e.g., improving InternVL2.5-8B from 55.8% to 62.1%,  surpassing the SOTA GPT-4o by 1.5%).
 
+## Data Characteristics
+1) Regions of interest are often off-center and not well-focused.
+2) Questions reflect user intention in specific situation and may be ambiguous if without considering spatial and temporal contexts.
+3) Answers are not only correct to the visual contents but must be helpful to the users.
+
+![EgoBlind](intro.jpg)
 ## Data Examples
 ![EgoBlind](EgoBlind.jpg)
 ## Download
