@@ -23,7 +23,7 @@ We are glad to share that the dataset can be freely used for research purpose, b
 ## Evaluation
 We provide the evaluation script along with an example prediction file for testing. Please ensure that you have an OpenAI API key before running the script:
 ```
-python eval.py
+python eval.py --pred_path example_pred.jsonl --test_path test.csv
 ```
 
 ## Benchmarking
