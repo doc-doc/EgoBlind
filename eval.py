@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import ast
 import argparse
@@ -19,7 +20,7 @@ def parse_args():
     return parser.parse_args()
 
 
-def annotate(key, qa_set, output_dir):
+def GPT_Score(key, qa_set, output_dir):
     """
     Call OpenAI API to evaluate if the predicted answer meaningfully matches any correct answers.
     Save the evaluation result as a JSON file per question.
@@ -74,6 +75,9 @@ def annotate(key, qa_set, output_dir):
     
     response_message = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
     data = response_message.json()
+    if 'choices' not in data:
+        print("Fail to get responses from OpenAI. Please ensure to specify the API key!")
+        sys.exit()
     first_choice = data['choices'][0]['message']['content']
     response_dict = ast.literal_eval(first_choice)
 
@@ -190,7 +194,7 @@ def main():
         key = file.split('.')[0]
         qa_set = prediction_set.get(key)
         if qa_set:
-            annotate(key, qa_set, output_dir)
+            GPT_Score(key, qa_set, output_dir)
         else:
             print(f"Warning: No QA data found for key {key}. Skipping...")
 

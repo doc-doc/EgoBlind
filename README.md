@@ -23,9 +23,9 @@ We are glad to share that the dataset can be freely used for research purpose, b
 ## Evaluation
 We provide the evaluation script along with an example prediction file for testing. Please ensure that you have an OpenAI API key before running the script:
 ```
-python eval.py --pred_path example_pred.jsonl --test_path test.csv
+python eval.py --pred_path example_pred.jsonl --test test.csv
 ```
-
+The evaluation may take about 35 minutes, and the results will be save to metrics_xxx.json and results_xxx.json.
 ## Benchmarking
 | Methods              | LLM                | Res.     | #F      | Tool Use   | Information | Navigation | Safety    | Communication | Resource  | Average   |
 |----------------------|--------------------|----------|---------|------------|-------------|------------|-----------|----------------|-----------|-----------|
@@ -59,5 +59,5 @@ python eval.py --pred_path example_pred.jsonl --test_path test.csv
 }
 ```
 
-## License
-The dataset is strictly for research purpose. By downloading it, you automatically agree to our terms of use.
+## Notes
+The dataset is strictly for research purpose. Please always attach the source links of the videos for distribution if available (we find that several video links are expired, and several (2 or 3) videos are token by the blind volunteers offline.).
