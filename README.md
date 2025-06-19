@@ -60,4 +60,4 @@ The evaluation may take about 35 minutes, and the results will be save to metric
 ```
 
 ## Notes
-The dataset is strictly for research purpose. Please always attach the source links of the videos for distribution if available (we find that several video links are expired, and several (2 or 3) videos are token by the blind volunteers offline.).
+The dataset is strictly for research purpose. Please always attach the source links of the videos for distribution if available.
