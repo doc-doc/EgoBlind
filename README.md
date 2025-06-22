@@ -23,7 +23,7 @@ We are glad to share that the dataset can be freely used for research purpose, b
 ## Evaluation
 A random half of the ground-truth answers in the test set are withheld by us, please send a complete prediction file to (junbin@comp.nus.edu.sg) for full evaluation. We provide the evaluation script along with an example full prediction file for testing. Please ensure that you have an OpenAI API key before running the script:
 ```
-python eval.py --pred_path example_pred.jsonl --test test_half_release.csv
+python eval.py --pred_path example_pred.jsonl --test_path test_half_release.csv
 ```
 The evaluation may take about 18 minutes, and the results will be saved to metrics_xxx.json and results_xxx.json.
 ## Benchmarking

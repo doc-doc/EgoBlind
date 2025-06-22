@@ -186,6 +186,7 @@ def main():
 
     completed_files = set(os.listdir(output_dir))
 
+    cnt = 0
     for file in tqdm(caption_files, desc="Evaluating predictions"):
         if file in completed_files:
             print(f"{file} has already been processed.")
@@ -195,9 +196,10 @@ def main():
         qa_set = prediction_set.get(key)
         if qa_set:
             GPT_Score(key, qa_set, output_dir)
+            cnt += 1
         else:
             print(f"Warning: No QA data found for key {key}. Skipping...")
-
+    print(f"Evaluating on {cnt} samples ...")
     # Combine individual JSON results into one dictionary
     combined_results = {}
     for fname in os.listdir(output_dir):
