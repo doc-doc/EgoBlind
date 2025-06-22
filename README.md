@@ -21,11 +21,11 @@ The first VideoQA dataset collected from real blind people towards egocentric vi
 We are glad to share that the dataset can be freely used for research purpose, but with video source being cited for distribution. Please download EgoBlind from [Google Driven](https://drive.google.com/drive/folders/1MHY7COE0hARiGe-3uO3_vO5PPLhFx2nZ?usp=sharing) (about 80G). Optionally, you can download the [test set](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing) for evaluation purpose (about 32G).  
 
 ## Evaluation
-We provide the evaluation script along with an example prediction file for testing. Please ensure that you have an OpenAI API key before running the script:
+A random half of the ground-truth answers in the test set are withheld by us, please send a complete prediction file to (junbin@comp.nus.edu.sg) for full evaluation. We provide the evaluation script along with an example full prediction file for testing. Please ensure that you have an OpenAI API key before running the script:
 ```
-python eval.py --pred_path example_pred.jsonl --test test.csv
+python eval.py --pred_path example_pred.jsonl --test test_half_release.csv
 ```
-The evaluation may take about 35 minutes, and the results will be save to metrics_xxx.json and results_xxx.json.
+The evaluation may take about 18 minutes, and the results will be saved to metrics_xxx.json and results_xxx.json.
 ## Benchmarking
 | Methods              | LLM                | Res.     | #F      | Tool Use   | Information | Navigation | Safety    | Communication | Resource  | Average   |
 |----------------------|--------------------|----------|---------|------------|-------------|------------|-----------|----------------|-----------|-----------|

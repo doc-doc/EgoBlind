@@ -1,0 +1,1283 @@
+question_id,video_name,question,start-time/s
+v_00923_3,923,Am I facing the gate now?,1.98
+v_00925_1,925,Is the staff or conductor near me?,6.99
+v_00926_2,926,What other services can I access from this station?,9.0
+v_00926_4,926,How do I use this water dispenser?,3.99
+v_00927_2,927,Is this the entrance to the disabled toilet?,4.98
+v_00927_4,927,Where are the support rails located?,4.98
+v_00928_3,928,Which way should I go to find an exit?,9.0
+v_00929_2,929,Is it safe to exit the car now?,4.98
+v_00929_3,929,How to open the window in this car?,10.98
+v_00930_3,930,Are there any obstacles or hazards nearby as I walk?,1.98
+v_00930_4,930,Is there a clear path ahead for me to walk?,4.98
+v_00931_2,931,Am I facing the water or the buildings?,4.98
+v_00932_1,932,Who is standing beside me and interacting with the birds?,6.99
+v_00932_3,932,Which direction are the buildings in?,15.0
+v_00933_2,933,Where is the accessible toilet?,0.99
+v_00933_3,933,Is there an available fire extinguisher nearby in case of emergency?,0.0
+v_00934_1,934,Am I closer to row 1 or row 15 from here?,0.99
+v_00934_4,934,How do I get to the accessible toilet from my current position?,0.0
+v_00934_5,934,How can I reach coach No.3 from my position?,0.0
+v_00934_7,934,What should I do to get to Row 1 from the entrance?,0.99
+v_00935_1,935,Is Row 1 closer than Row 15?,0.99
+v_00935_4,935,Am I going the right way to get to Row 1?,0.0
+v_00935_7,935,what is the sign ?,0.99
+v_00936_2,936,Are there any obstacles on the steps ahead?,15.0
+v_00937_1,937,Is there someone blocking the path in front of me?,10.98
+v_00938_1,938,Is it safe to enter the subway train now?,9.99
+v_00938_3,938,Which subway line is this?,9.0
+v_00939_1,939,Are there any obstacles or barriers I should be aware of ?,3.0
+v_00939_2,939,Is there any construction or maintenance work happening nearby?,6.99
+v_00940_1,940,Is there an obstacle or object in front of me ?,4.98
+v_00940_2,940,Can I proceed with my luggage through the security gate now?,10.98
+v_00940_3,940,What needs to be scanned here?,10.98
+v_00941_3,941,Are there people walking towards me that I should be aware of?,64.98
+v_00941_5,941,Am I heading towards an exit or a subway?,58.98
+v_00942_4,942,Which way is the exit?,18.99
+v_00942_5,942,Am I heading towards the ticket counter now?,28.98
+v_00943_3,943,What is the direction of the escalator?,64.98
+v_00944_3,944,What should I be cautious about while walking forward?,88.98
+v_00944_5,944,Which direction do I need to go to reach the subway entrance?,58.98
+v_00945_1,945,Is there any open space ahead where I can walk freely?,3.0
+v_00946_1,946,Is there anyone nearby who can guide me to the elevator?,10.98
+v_00946_2,946,Are there any barriers or obstacles in front of me on the platform?,9.99
+v_00946_3,946,Is there any traffic or are there any people nearby that I need to be cautious of?,21.0
+v_00948_2,948,Which station are we approaching?,4.98
+v_00949_2,949,Are there any people standing near me that I need to be careful of?,21.0
+v_00950_2,950,Is it safe to board now?,9.99
+v_00951_1,951,Who is the person in front of me?,6.99
+v_00952_1,952,Are there any obstacles or people in my way as I prepare to exit the train?,9.99
+v_00952_4,952,Is this the right door to get off at a train station?,28.98
+v_00953_2,953,Is it safe to open the door now?,3.0
+v_00953_3,953,Is there anything on the other side of the door?,6.99
+v_00953_5,953,Where is the handle?,2.815
+v_00953_6,953,Is this the door leading to the kitchen?,3.99
+v_00954_3,954,Is there any traffic passing by?,10.98
+v_00955_3,955,Is there any traffic or obstacles I need to avoid right now?,3.0
+v_00955_4,955,Am I heading towards the main entrance?,3.0
+v_00956_1,956,Is yuki heading in the direction of the parking lot?,1.98
+v_00957_1,957,Is yuki correctly guiding me around obstacles ahead?,5.0
+v_00957_2,957,Are there any other pedestrians around?,34.98
+v_00957_3,957,Is yuki correctly guiding me around obstacles ahead?,4.98
+v_00957_5,957,Which direction should I steer yuki to avoid obstacles?,16.98
+v_00957_6,957,Is there a clear path ahead for me to follow?,15.0
+v_00958_2,958,Is there anyone blocking my path?,10.98
+v_00958_3,958,How can I identify landmarks ?,10.98
+v_00959_1,959,Can I go straight to cross the street safely?,10.98
+v_00959_4,959,Are there any obstacles ahead as we cross the street?,12.99
+v_00959_5,959,Where is the crosswalk?,4.98
+v_00960_2,960,Is there any obstacle in the hallway ahead of me?,4.98
+v_00960_3,960,Are there any obstacles in the hallway ahead?,1.98
+v_00960_4,960,Is the ground level in front of me?,4.98
+v_00960_5,960,Am I headed in the right direction to exit this building?,1.98
+v_00960_6,960,How do I know when yuki stops or wants to change direction?,4.98
+v_00961_3,961,Where is the handle?,4.97
+v_00961_4,961,Is there a doorway ahead of us?,1.98
+v_00961_5,961,How do I use the cane with yuki for navigation?,4.98
+v_00962_10,962,Is this the right floor for the exit?,14.13
+v_00962_11,962,Which button should I press to go to the third floor?,8.0
+v_00962_12,962,Is there any special indicator or Braille for the buttons in this elevator?,11.24
+v_00962_15,962,Is there any obstacle in front of me?,17.1
+v_00962_17,962,Is there any signage to indicate we are on the correct floor?,17.1
+v_00962_18,962,Am I heading towards the exit?,18.24
+v_00962_2,962,How can I use the elevator button to go to the desired floor?,0.99
+v_00962_20,962,Is there anything in my way as I head towards the door?,17.23
+v_00962_23,962,How do I navigate the step outside?,22.01
+v_00962_24,962,Is there anyone nearby that I can ask for directions?,36.05
+v_00962_26,962,Are there any obstacles before exiting?,27.22
+v_00962_28,962,Where is the safest place to cross this street?,36.05
+v_00962_3,962,Where is the elevator door?,0.99
+v_00962_30,962,How do I detect any immediate obstacles on the path?,32.0
+v_00962_7,962,Is the elevator door opening safely without any obstacles?,14.13
+v_00962_9,962,Can you show me how to recognize the emergency button in this elevator?,8.0
+v_00963_2,963,Is it safe to walk forward on this path?,3.0
+v_00963_3,963,Where is the entrance of the building up ahead?,9.0
+v_00963_4,963,How do I signal yuki to move forward?,9.0
+v_00963_5,963,Is there a restaurant directly in front of me?,3.99
+v_00964_1,964,Is there anyone nearby who can help me cross the street?,96.99
+v_00964_2,964,Is there an obstacle directly in front of me?,58.98
+v_00965_1,965,Is the sidewalk clear ahead of me?,28.98
+v_00965_2,965,Is the sidewalk clear ahead of me?,28.98
+v_00966_1,966,Is there any vehicle blocking my path?,28.98
+v_00966_2,966,Is there something blocking this sidewalk?,28.98
+v_00966_3,966,Is there a vehicle in front of me?,43.98
+v_00968_2,968,What is the decoration on the wall on the left?,118.17
+v_00970_1,970,Is this the pedestrian crossing?,4.98
+v_00970_2,970,Is it safe to cross the road now?,10.98
+v_00970_3,970,Is the intersection busy?,13.98
+v_00970_5,970,Is it safe to cross the street now?,26.29
+v_00971_3,971,Am I following the tactile paving correctly?,54.99
+v_00971_5,971,Is there any obstruction on this path ahead of me?,13.98
+v_00972_1,972,Can you tell if I am on the tactile path?,54.99
+v_00973_3,973,Am I facing the direction towards the exit of the parking lot?,28.98
+v_00975_1,975,Where is the 'ground floor'?,3.0
+v_00976_1,976,Is this escalator going up or down?,4.98
+v_00978_1,978,Is there a safety notice that I should be aware of while using the escalator?,22.98
+v_00978_2,978,Is this escalator going upwards or downwards?,9.99
+v_00978_3,978,Is it safe to step onto this escalator now?,21.0
+v_00979_2,979,Is there any obstacle in front of me on the sidewalk?,3.99
+v_00980_2,980,Is there any obstacle in front of me on this path?,13.98
+v_00980_3,980,Am I on a clear path to walk forward?,28.98
+v_00981_2,981,Is the pedestrian signal in front of me green?,9.99
+v_00982_2,982,Which direction should I go to reach the sidewalk?,43.98
+v_00982_4,982,Am I facing the pedestrian crossing now?,13.98
+v_00983_2,983,Am I near the hot stove?,9.0
+v_00983_3,983,Is there any boiling water nearby?,18.99
+v_00983_7,983,How do I use the digital scale?,10.98
+v_00984_1,984,Is the hallway to the bedroom to my left or right?,1.98
+v_00984_2,984,How to navigate through this app on the phone?,4.98
+v_00985_1,985,Is there any hot equipment on the counter?,1.98
+v_00985_2,985,Is the stove currently on?,4.98
+v_00985_3,985,where is the kitchen sink?,1.98
+v_00985_5,985,How can I navigate through the food options on the screen?,1.98
+v_00985_6,985,What process is displayed on the screen?,1.98
+v_00985_7,985,Which food items are available for ordering now?,4.98
+v_00986_2,986,Is it safe to reach into the oven now?,9.0
+v_00986_3,986,Are there any obstacles near the oven?,18.99
+v_00986_4,986,Is the oven door fully closed now?,28.98
+v_00987_2,987,where are the tissues?,13.98
+v_00987_3,987,How can I safely place and remove the baking tray from the oven?,28.98
+v_00987_5,987,Is it safe to reach now?,45.01
+v_00987_6,987,Where can I find a chair to sit down?,38.03
+v_00987_7,987,Is the table directly in front of me?,45.01
+v_00988_1,988,Is there anything sharp or hot ?,6.99
+v_00988_3,988,How to use the mixer?,7.98
+v_00988_5,988,How do I know if the blender is securely connected before turning it on?,10.98
+v_00988_6,988,How do I control the speed of the blender?,10.98
+v_00988_7,988,How do I know when the pot is heated and ready to use?,16.98
+v_00988_8,988,Is the blender started?,16.98
+v_00989_1,989,Where is the bowl placed on the counter?,3.0
+v_00990_1,990,Is there any sharp object nearby ?,9.0
+v_00990_2,990,Is the bowl of flour near the edge of the table?,18.99
+v_00990_3,990,Where should I place the molded cookies on the baking tray?,4.98
+v_00990_4,990,How can I properly use this cookie cutter?,16.98
+v_00990_5,990,What's the best way to remove the dough from the cookie cutter?,16.98
+v_00990_6,990,How do I place the molded dough onto the baking sheet?,22.98
+v_00990_7,990,Where is the flour?,13.98
+v_00990_8,990,How to take out the dough?,22.98
+v_00990_9,990,What if the dough sticks to the mold?,22.98
+v_00991_2,991,Is there anything on the table that might fall over easily?,4.98
+v_00991_4,991,How do I identify the containers on the tray?,1.98
+v_00991_5,991,Is there any food in the containers?,1.98
+v_00992_2,992,Am I facing the counter?,7.98
+v_00992_5,992,What is on the cutting board?,4.98
+v_00992_6,992,What shapes are these containers for?,10.98
+v_00993_2,993,When should I preheat the oven for baking these cookies?,13.98
+v_00995_1,995,Is my companion turning on the oven?,10.98
+v_00995_2,995,Is the tray stable?,18.99
+v_00995_4,995,Am I facing the open oven now?,21.0
+v_00996_1,996,Is there an obstacle directly in front of me?,13.98
+v_00996_2,996,Am I at the top of an escalator currently?,28.98
+v_00997_1,997,Is there anything near the wall I should be aware of?,28.98
+v_00998_2,998,How do I open this glass display case to get the items inside?,3.99
+v_00998_3,998,What is directly in front of me on the counter?,3.99
+v_00998_4,998,Can you help me identify the contents of the refrigerated display?,9.0
+v_00999_3,999,What is this product in front of me?,13.98
+v_01000_1,1000,Is someone assisting me in selecting the sweet dumplings?,18.99
+v_01000_3,1000,what those round items in the display are?,18.99
+v_01001_1,1001,Is my cane touching a patch of snow?,9.0
+v_01001_2,1001,Are these doors automatic?,18.99
+v_01001_3,1001,What is in front of me? Is there an obstacle on my path?,9.0
+v_01001_4,1001,Where is the entrance of a building?,21.0
+v_01002_3,1002,How do I move towards the exit from here?,1.98
+v_01002_5,1002,"Which side of the street am I on, and what stores or notable places can you see?",4.98
+v_01003_1,1003,How do I get to the restroom from here?,4.98
+v_01004_2,1004,Is this table clean and ready to use?,18.99
+v_01006_1,1006,Are there any obstacles on the sidewalk?,4.98
+v_01006_2,1006,How can I get inside the building?,1.98
+v_01006_3,1006,What is the name of the building or establishment I am in front of?,1.98
+v_01006_4,1006,What is the address of this place?,4.98
+v_01007_3,1007,What is the name of the shop I am standing in front of?,10.98
+v_01008_2,1008,Where is the entrance to the supermarket?,73.98
+v_01008_4,1008,Am I facing the main street now?,28.98
+v_01008_5,1008,How can I cross the street safely at this intersection?,13.98
+v_01008_8,1008,What is on the left side of the street?,48.99
+v_01008_9,1008,What is the store on the left?,58.98
+v_01009_1,1009,How can I reach the dining area from here?,10.98
+v_01009_2,1009,what items are hanging on the wall?,10.98
+v_01010_3,1010,Is there anything cooking on the stove?,9.0
+v_01011_1,1011,Am I facing the counter where the bowls of soup are being served?,9.99
+v_01014_1,1014,Has the car parked yet?,3.0
+v_01014_2,1014,Is there a sidewalk close to the car?,9.0
+v_01015_2,1015,How do I get to the nearest exit from here?,3.99
+v_01016_4,1016,What is behind the transparent door?,12.99
+v_01018_1,1018,Which direction should I walk to reach the sidewalk safely?,13.98
+v_01018_2,1018,Is the vehicle entrance in front of me?,28.98
+v_01018_3,1018,Is there anyone next to the car?,48.99
+v_01019_1,1019,In which direction should I walk to reach the structure?,9.0
+v_01019_2,1019,Am I facing the main road?,3.99
+v_01019_3,1019,What structures or landmarks are visible at this location?,3.99
+v_01019_4,1019,Is the road ahead clear from any vehicles?,6.99
+v_01020_2,1020,What is the direction of this vehicle?,13.98
+v_01020_3,1020,please describe the environment around me?,28.98
+v_01020_4,1020,Is there anyone outside the car?,28.98
+v_01020_5,1020,What is outside the car?,69.0
+v_01021_4,1021,Is this escalator going up or down?,1.98
+v_01022_1,1022,Is there any obstruction or hazard?,9.0
+v_01022_2,1022,Is there anyone nearby who might pose a risk?,18.99
+v_01022_4,1022,Is  Yuki lying down comfortably?,28.98
+v_01023_1,1023,Is my companion talking to the staff at the counter?,4.98
+v_01023_2,1023,Is there any obstruction along the path in this room?,1.98
+v_01023_4,1023,Where is the counter?,1.98
+v_01023_5,1023,What is the seating arrangement in the cafe?,1.98
+v_01024_1,1024,Is the counter height safe for me to reach?,9.0
+v_01024_2,1024,Is the drink directly in front of me?,18.99
+v_01024_3,1024,"Is the drink steady, or is it spilling over?",28.98
+v_01025_1,1025,Is there anyone obstructing my path ahead?,0.0
+v_01025_10,1025,How can I get to the nearest booth?,6.16
+v_01025_12,1025,How can I ensure yuki stays focused in a crowded space like this?,11.12
+v_01025_13,1025,What does the surrounding area look like?,11.12
+v_01025_2,1025,Are people walking towards me or in my direction?,1.98
+v_01025_5,1025,How should I guide my service dog in crowded areas?,0.99
+v_01025_6,1025,What should I do to keep Yuki calm in a busy environment?,1.98
+v_01025_7,1025,What is directly in front of me?,0.99
+v_01025_9,1025,Can I safely walk toward that car display without bumping into anything?,11.12
+v_01026_11,1026,What kind of car is this?,16.0
+v_01026_14,1026,How do I adjust the seat in the car?,54.17
+v_01026_15,1026,Am I sitting in the second row?,39.13
+v_01026_2,1026,Is there any obstacle close to me?,3.99
+v_01026_3,1026,Where is the newly released car?,3.99
+v_01026_6,1026,Is it safe for me to enter the car from this position?,14.29
+v_01026_7,1026,Is yuki safely positioned to enter the car?,22.16
+v_01026_8,1026,Where is yuki?,22.16
+v_01026_9,1026,Am I facing the direction of the vehicle entry?,14.29
+v_01027_1,1027,What is the person next to me doing?,3.0
+v_01027_4,1027,Am I sitting in the second row of the vehicle?,3.0
+v_01027_5,1027,Is my yuki with me in the car?,6.99
+v_01027_9,1027,How do I turn on the air conditioning ?,46.26
+v_01029_1,1029,Is there anyone?,9.0
+v_01029_2,1029,Are there any obstacles?,3.99
+v_01029_3,1029,Where is the wardrobe?,3.99
+v_01029_4,1029,Where is the door to exit this room?,3.99
+v_01030_1,1030,where will i go?,4.98
+v_01030_2,1030,Is there a clear path ahead without obstacles?,10.98
+v_01031_2,1031,Why did it stop suddenly?,21.0
+v_01032_1,1032,Is it safe for me to open the door?,18.99
+v_01033_1,1033,Is it safe to step out of the car right now?,12.99
+v_01033_3,1033,Which direction should I go?,28.98
+v_01034_1,1034,Is there any furniture?,12.99
+v_01034_2,1034,Is there a clear path to the exit door?,40.98
+v_01034_4,1034,How do I get to the reception desk?,43.98
+v_01034_5,1034,Am I facing the entrance right now?,13.98
+v_01035_1,1035,Is it safe to provide my documents here?,12.99
+v_01036_1,1036,Where is the exit from this counter area?,13.98
+v_01036_2,1036,How do I use this password input?,9.0
+v_01037_1,1037,Is there any equipment in front of me that I need to avoid touching?,12.99
+v_01037_2,1037,Can you explain how to use the console to make a request?,39.0
+v_01037_3,1037,How do I operate the keypad on the console here?,28.98
+v_01038_1,1038,Is there any object or obstacle directly in front of me?,12.99
+v_01039_1,1039,Which direction should I go to exit this room?,73.98
+v_01040_1,1040,Are there any hazards?,18.99
+v_01040_2,1040,Where is the counter for general inquiries?,16.98
+v_01041_2,1041,Are there any obstacles?,10.98
+v_01041_3,1041,Where is the service window?,10.98
+v_01042_11,1042,Are there any obstacles on the floor?,134.01
+v_01042_12,1042,Is the path ahead clear for walking?,149.07
+v_01042_13,1042,Is there a clear path ahead of me?,152.04
+v_01042_14,1042,Am I walking towards the end of the bridge?,122.22
+v_01042_2,1042,Are there any obstacles on the path ahead?,12.99
+v_01042_4,1042,Where is the nearest exit from here?,28.98
+v_01042_6,1042,Can you tell me what shop is on my right?,28.98
+v_01042_7,1042,Where is the nearest exit from here?,67.13
+v_01043_1,1043,Are there any obstacles?,9.0
+v_01045_1,1045,Are there any obstacles I should be aware of while walking along this path?,15.0
+v_01045_2,1045,Are there any obstacles on the walkway ahead?,6.99
+v_01046_1,1046,Is there a guide available to assist me inside the building?,12.99
+v_01046_5,1046,How do I enter this building?,9.0
+v_01047_2,1047,How can I reach the boats on the water?,13.98
+v_01047_3,1047,Am I facing in the direction of the market stalls?,28.98
+v_01048_1,1048,Are there any obstacles on the walkway ahead?,3.0
+v_01048_2,1048,Is the path ahead crowded with people?,6.99
+v_01050_1,1050,Where is the nearest gift shop located?,9.0
+v_01051_2,1051,What's on the sign?,9.0
+v_01052_1,1052,describe the surroundings to me?,40.98
+v_01052_3,1052,What is at the end of this narrow path?,73.98
+v_01052_4,1052,Is there a door to my right?,88.98
+v_01052_6,1052,Do I need to make any turns to continue on this path?,58.98
+v_01052_7,1052,Are there any shops along this path?,28.98
+v_01053_1,1053,Are there any boats ahead?,9.0
+v_01053_4,1053,How do I get to the nearest boat from here?,9.99
+v_01053_5,1053,What's in front of me?,9.0
+v_01054_3,1054,What's the humanoid machine in front of me doing?,9.0
+v_01056_1,1056,Is it safe to walk near the water here?,9.0
+v_01056_2,1056,How do I get to the nearest bridge from here?,9.99
+v_01057_1,1057,Are there any obstacle?,12.99
+v_01057_2,1057,Is the walking path clear?,27.0
+v_01057_3,1057,Am I at a service counter?,21.0
+v_01058_1,1058,Are there any obstacles?,12.99
+v_01058_3,1058,How do I find the entrance to this shop?,9.0
+v_01058_4,1058,How about my location?,21.0
+v_01059_2,1059,Are there any obstacles on the table I should be aware of?,6.99
+v_01059_5,1059,What I am holding in my hands?,3.0
+v_01060_2,1060,Where are the sealed bags?,1.96
+v_01060_3,1060,What are the items inside the plastic bags on the table?,1.98
+v_01061_2,1061,Is the chair in front of me positioned safely for sitting down?,4.98
+v_01061_3,1061,What item is placed on the shelf in front of me?,4.98
+v_01062_2,1062,Is there anything on the ground that I might trip over?,3.0
+v_01062_3,1062,Is aerfa in my walking path?,6.99
+v_01062_5,1062,What I am holding in my hand?,3.0
+v_01063_2,1063,Is there anything in front of me that could potentially trip or obstruct my pathway?,9.0
+v_01063_3,1063,Is the area clear of obstacles if I need to stand up and move?,18.99
+v_01064_1,1064,Is there anything on the desk that could fall over and hurt me?,7.98
+v_01064_2,1064,Is everything secured and safe on the desk while I sit here?,16.98
+v_01064_5,1064,What am I holding?,16.98
+v_01064_6,1064,what is this?,16.98
+v_01065_1,1065,Which direction should I go to find the nearest exit?,10.98
+v_01065_2,1065,Am I facing a door right now?,4.98
+v_01065_3,1065,What are the dogs doing over there?,3.99
+v_01067_3,1067,Is there any open flame or hot food on the table that I should be aware of?,12.99
+v_01067_4,1067,Where is the exit of this dining room?,13.98
+v_01067_5,1067,Is there a bathroom close to this dining room?,43.98
+v_01067_7,1067,Where is the nearest exit in this restaurant?,62.89
+v_01067_9,1067,Is there a restroom nearby?,83.84
+v_01068_2,1068,Which direction should I head after stepping onto the dock?,21.0
+v_01068_3,1068,Am I stepping off the boat onto a solid surface?,9.99
+v_01069_4,1069,What is written on the vest of the guide dog?,9.0
+v_01070_1,1070,Is Alpha safely stepping onto the boat?,12.99
+v_01071_2,1071,Which direction should I move to enter the train?,43.98
+v_01071_4,1071,Where is the train door?,13.98
+v_01071_5,1071,Is there anyone directly in front of me blocking the way?,58.98
+v_01071_6,1071,Is there an accessible boarding area nearby?,148.98
+v_01071_9,1071,Is the train approaching?,27.0
+v_01072_3,1072,Is Alpha looking calm and comfortable on its bed?,27.0
+v_01073_2,1073,What is this?,13.99
+v_01074_3,1074,Is there anything on the left seat?,6.0
+v_01076_1,1076,Are there any obstacles on the floor that could trip me while walking?,4.98
+v_01076_3,1076,Am I facing towards the nearest door to exit the carriage?,4.98
+v_01076_5,1076,What is the dog doing?,4.98
+v_01077_3,1077,Is the staff member giving directions to Alpha?,6.99
+v_01077_4,1077,What is everyone looking at?,3.0
+v_01078_1,1078,what is Alpha doing?,1.98
+v_01078_2,1078,Is there anything in the dog's way that I should be aware of?,1.98
+v_01079_3,1079,what items are hanging on the wall?,3.99
+v_01080_1,1080,How do I use this kitchen appliance to cook eggs?,1.98
+v_01080_2,1080,Did I correctly place the egg in the device?,1.98
+v_01080_5,1080,Is my method safe?,9.87
+v_01080_7,1080,Is the appliance turned on?,13.86
+v_01080_8,1080,Is it safe to plug the electrical appliance now?,17.1
+v_01080_9,1080,Is there water in the pot?,21.09
+v_01081_1,1081,Is there anything on the floor that I might trip over?,9.0
+v_01081_2,1081,Is Alpha eating?,9.99
+v_01082_2,1082,Am I headed towards a clear path?,28.98
+v_01082_3,1082,Is there any obstacles beside me?,13.98
+v_01084_1,1084,Is the road clear ahead for us to continue walking?,10.98
+v_01084_2,1084,Are there any vehicles passing by right now?,4.98
+v_01084_4,1084,Am I walking in the direction of the shops on this road?,10.98
+v_01085_2,1085,what products are displayed here?,6.99
+v_01086_2,1086,Where can I find the weighing scale for these vegetables?,10.98
+v_01087_2,1087,Are these bell peppers?,9.0
+v_01087_6,1087,what vegetables are on sale in this section?,34.3
+v_01087_8,1087,Are these tomatoes ripe?,73.79
+v_01088_5,1088,Is there anyone in front of me?,6.99
+v_01089_1,1089,Am I facing the checkout counter now?,3.0
+v_01089_3,1089,what items are available in the display case on the left?,6.99
+v_01090_1,1090,Is it safe to walk straight ahead without tripping over anything?,27.0
+v_01090_4,1090,what are the obstacles on the road outside the shop?,18.99
+v_01091_3,1091,How much do the onion cost per kilogram?,9.0
+v_01092_5,1092,which section of the store we are in right now?,11.33
+v_01092_6,1092,what products are on my right side?,16.34
+v_01093_1,1093,Am I picking a ripe tomato?,54.99
+v_01093_2,1093,How can I differentiate between ripe and unripe tomatoes?,28.98
+v_01093_4,1093,How can I find the nearest exit from here?,73.98
+v_01093_6,1093,Are these tomatoes fresh?,28.98
+v_01094_2,1094,Is the path clear ahead?,10.98
+v_01095_1,1095,What does the road ahead look like?,9.0
+v_01095_10,1095,What is directly in front of me?,30.08
+v_01095_2,1095,Is it safe to walk forward?,18.99
+v_01095_4,1095,what is directly ahead of me on this street?,9.0
+v_01095_6,1095,Am I walking towards a busy street ahead?,26.06
+v_01095_9,1095,Where am I and what's around me?,25.07
+v_01096_1,1096,Is there a clear path ahead for me?,3.0
+v_01096_3,1096,Am I heading towards the exhibition hall?,3.0
+v_01098_1,1098,Are we facing the entrance of the building?,28.98
+v_01099_1,1099,Is there someone approaching me?,27.0
+v_01103_1,1103,Is the driver paying attention to the road?,27.0
+v_01104_1,1104,Is it safe to walk in this direction?,7.98
+v_01104_2,1104,Is it clear to cross the road now?,16.98
+v_01104_5,1104,Is there a clear path for crossing the street in front of me?,13.98
+v_01105_1,1105,Where is the next exhibit item?,4.98
+v_01105_2,1105,what is displayed ahead?,3.99
+v_01105_3,1105,Can you describe the statue in front of me?,10.98
+v_01105_4,1105,what is the sculpture?,9.0
+v_01106_1,1106,Is there another sculpture displayed ahead?,54.99
+v_01106_11,1106,What is the exhibit directly in front of my right hand?,73.98
+v_01106_6,1106,describe the sculpture in front of me?,13.98
+v_01106_8,1106,What are the objects on display in this part of the gallery?,43.98
+v_01106_9,1106,Are there any signs or labels near the exhibits here?,58.98
+v_01107_1,1107,What is the statue wearing?,4.98
+v_01108_4,1108,What does this statue represent?,9.0
+v_01109_1,1109,Can you help describe the statue in front of me?,6.99
+v_01109_2,1109,Is there anything blocking my way ahead?,15.0
+v_01109_3,1109,Where is the statue?,6.99
+v_01109_4,1109,What is this I am feeling with my hand?,13.98
+v_01110_2,1110,Where is the nearest restroom?,9.0
+v_01112_1,1112,Is there someone nearby who can guide me?,4.98
+v_01112_2,1112,Is there any obstacle ahead of me on the path?,1.98
+v_01112_3,1112,What is on the path ahead of me?,1.98
+v_01112_4,1112,Is the path ahead clear?,4.98
+v_01113_10,1113,Is there anyone ahead of me on this path?,102.66
+v_01113_2,1113,Is there any obstacle on the path ahead?,54.99
+v_01113_4,1113,How do I control the speed of this mobility aid?,28.98
+v_01113_7,1113,What is the scene around me like?,84.21
+v_01113_9,1113,Are there any obstacles ahead on the path?,102.66
+v_01114_2,1114,Is there any obstacle directly?,12.99
+v_01114_3,1114,Is there a bend or turn in the path ahead?,40.98
+v_01114_4,1114,How do I control this robotic guide dog?,9.0
+v_01114_5,1114,Is the path ahead clear for me to continue walking?,28.98
+v_01117_1,1117,if it's safe to cross the street now?,9.0
+v_01118_2,1118,Is there any oncoming traffic as I prepare to cross the road?,1.98
+v_01119_2,1119,Is the cat on the bed and is it close enough for me to accidentally touch or disturb it?,24.99
+v_01120_1,1120,Is there any obstacle or hazard on the bed that I should be aware of?,12.99
+v_01120_2,1120,Is it safe to reach for the items near the edge of the bed?,27.0
+v_01121_2,1121,Is the fluffy object on the bed in a safe place or should I move it?,40.98
+v_01121_4,1121,How can I send a text message using only my voice?,28.98
+v_01122_1,1122,Is there anything fragile on the bed that I should be careful about?,27.0
+v_01122_4,1122,What does the text on this plaque say?,48.99
+v_01123_1,1123,Are there any obstacles on the stairs?,0.99
+v_01123_2,1123,What floor am I on in this building?,0.99
+v_01124_2,1124,Where is the IKEA store located from here?,4.98
+v_01126_3,1126,what stores are ahead of me?,1.98
+v_01127_1,1127,Are there any obstacles in the way that I need to be aware of?,3.99
+v_01128_3,1128,Which direction should I go now?,18.99
+v_01129_2,1129,Is the aisle crowded right now?,4.98
+v_01129_4,1129,What products are displayed in the basket to my left?,3.0
+v_01130_3,1130,what these items are?,12.99
+v_01131_2,1131,Is there any object or person close to my left side?,3.0
+v_01132_1,1132,Is there anyone nearby who I can ask for help?,4.98
+v_01132_2,1132,if this is a bus stop?,1.98
+v_01133_1,1133,Are there any obstacles in front of me?,3.99
+v_01133_2,1133,What kind of store am I in?,3.99
+v_01133_3,1133,What is placed on the sofa?,9.0
+v_01135_3,1135,describe the items on this shelf?,9.0
+v_01136_1,1136,What is this paper on the shelf about?,1.98
+v_01137_1,1137,what I am touching?,3.99
+v_01139_1,1139,What are the people around us in the store doing?,27.0
+v_01139_2,1139,what this store is selling?,9.0
+v_01139_3,1139,Could you describe the items on the table?,28.98
+v_01142_1,1142,Is there someone nearby who can assist me with finding the escalator?,0.99
+v_01142_2,1142,Is it safe for me to enter the escalator now?,0.99
+v_01142_3,1142,What type of facility is this?,0.99
+v_01143_2,1143,How do I find the washing instructions on this cushion?,28.98
+v_01143_3,1143,the texture of the items on display?,9.0
+v_01144_2,1144,Is it safe to continue walking straight ahead?,3.0
+v_01144_4,1144,Is there a lot of foot traffic in the area?,3.0
+v_01145_2,1145,what store I'm in?,0.99
+v_01145_3,1145,How busy is the store right now?,3.0
+v_01146_1,1146,Is there anything on the floor that I might trip over?,4.98
+v_01146_3,1146,What is the price?,4.98
+v_01147_1,1147,What is the person in front of me holding?,9.0
+v_01148_1,1148,Where should I go to find the restaurant?,4.98
+v_01148_2,1148,Where is the restaurant?,10.98
+v_01149_2,1149,if this is the direction to the restaurants?,9.0
+v_01150_3,1150,What is in the basket on the right?,10.98
+v_01152_1,1152,what items are on the shelf?,3.99
+v_01152_2,1152,What section of the store am I in right now?,9.0
+v_01153_1,1153,if this escalator goes down?,1.98
+v_01154_1,1154,How can I navigate to the checkout counter from here?,9.0
+v_01154_2,1154,What is the price of the Chinese mango dessert?,3.99
+v_01156_2,1156,Is this the restaurant counter?,6.99
+v_01157_1,1157,what the view outside the train looks like?,6.99
+v_01159_1,1159,Are there any obstacles or people in front of me that I need to be aware of?,29.17
+v_01160_3,1160,Where is the escalator located?,18.99
+v_01160_4,1160,How many steps are there in front of me?,9.0
+v_01160_5,1160,Is this escalator safe to step onto?,31.09
+v_01160_6,1160,Is this escalator going up or down?,31.09
+v_01161_1,1161,Is the hallway ahead of me clear of obstacles?,12.99
+v_01161_5,1161,Are there any advertisements or information boards around me?,28.98
+v_01162_3,1162,Am I in a subway station or an airport terminal?,6.99
+v_01163_1,1163,Is there any obstruction in my way ahead?,3.99
+v_01163_3,1163,Is there a security checkpoint ahead?,10.98
+v_01164_2,1164,Am I approaching a security checkpoint?,4.98
+v_01164_3,1164,Is there any information on the signs near me?,10.98
+v_01165_2,1165,Is the train approaching the platform?,6.0
+v_01166_3,1166,What type of floor am I standing on?,18.99
+v_01167_1,1167,Is there any obstruction at the ticket gate that I should be aware of?,3.99
+v_01167_3,1167,How do I find my way to the escalator from here?,10.98
+v_01168_1,1168,Is my dog with me?,15.0
+v_01169_1,1169,Are there any obstacles in my way?,12.99
+v_01169_2,1169,Is there a clear path to the check-in counter?,27.0
+v_01170_2,1170,"As I walk toward the door, will there be any obstacles or changes in direction?",4.98
+v_01170_3,1170,Which section of the airport am I in?,1.98
+v_01171_1,1171,Are the elevator doors fully open and safe to enter?,10.98
+v_01171_2,1171,Is there anyone coming towards me along this road?,22.98
+v_01171_3,1171,Which floor did I press in the elevator?,9.0
+v_01172_3,1172,Is this person in front of me trying to hand me something important?,9.0
+v_01172_4,1172,Am I at the gate entrance?,18.99
+v_01175_1,1175,Is it safe to get off the subway now?,6.99
+v_01176_1,1176,Can I easily reach the call button to get help?,54.99
+v_01176_4,1176,Have we reached my assigned seat?,40.98
+v_01176_7,1176,What did flight attendants put in seat pockets?,48.99
+v_01176_8,1176,What's written on the back of the seat?,58.98
+v_01178_2,1178,Are there any obstacles on the ground I need to be aware of?,9.0
+v_01179_2,1179,Will there be anyone or anything on the road when I get off?,15.0
+v_01180_2,1180,Is it safe to continue along this road?,27.0
+v_01180_4,1180,What are the opening hours?,9.0
+v_01181_2,1181,"Is it crowded near the entrance, requiring me to be careful where I walk?",4.98
+v_01182_1,1182,Is there anyone walking in my path?,3.99
+v_01182_2,1182,Are there any obstacles or barriers in front of me?,9.0
+v_01182_4,1182,Is this an airport terminal?,12.99
+v_01183_1,1183,Is the security guard assisting me with my ticket?,6.99
+v_01183_3,1183,Are there any obstacles or people I might bump into as I move forward?,18.99
+v_01183_4,1183,How do I navigate through this airport to find my check-in counter?,18.99
+v_01183_5,1183,What services does this counter provide?,9.0
+v_01184_2,1184,Are there any signs near the counter to help me complete the check-in process?,15.0
+v_01184_3,1184,What is this bracelet for and how do I use it?,16.98
+v_01185_3,1185,Is there any important information on this sign?,69.0
+v_01185_4,1185,What is the person writing on the notepad?,58.98
+v_01186_1,1186,Are there any obstacles?,6.99
+v_01187_2,1187,Is there any traffic on the road to my right?,4.98
+v_01188_1,1188,Are there any obstructions on the sidewalk?,6.99
+v_01188_2,1188,How do I find the entrance to this building?,6.99
+v_01189_1,1189,Is it safe to go through the entry gate?,1.98
+v_01189_2,1189,Are there any obstructions in the hallway?,4.98
+v_01190_1,1190,Are there any obstacles or people in the elevator blocking my passage?,10.98
+v_01191_1,1191,Is there anything in front of me?,6.99
+v_01191_4,1191,Is there any information displayed on my phone screen?,6.99
+v_01193_1,1193,Is it safe for me to get off the bus now?,1.98
+v_01193_2,1193,Are there any obstacles in my way to the subway?,4.98
+v_01193_4,1193,Am I getting off?,1.98
+v_01194_1,1194,Are there any vehicles approaching when I cross the road?,9.0
+v_01195_1,1195,Are there any vehicles nearby that I might hit?,3.99
+v_01195_3,1195,Is there a car in front of me?,6.0
+v_01196_2,1196,Can I walk here without stumbling?,22.98
+v_01197_2,1197,What traffic conditions nearby should I be aware of?,27.0
+v_01198_3,1198,Are there any obstacles in front of me?,6.99
+v_01198_4,1198,Can you describe the surroundings?,15.0
+v_01199_1,1199,Is this door open or closed?,6.99
+v_01199_3,1199,Is this my home?,15.0
+v_01200_2,1200,Is it safe to go straight?,4.98
+v_01200_3,1200,How can I get through this doorway safely?,1.98
+v_01201_1,1201,Is there anyone standing near me?,6.99
+v_01201_3,1201,Are there any famous shops on this street?,3.0
+v_01201_4,1201,Is there anyone walking ahead of us on the sidewalk?,6.99
+v_01203_1,1203,Is it safe for me to walk on this path?,1.98
+v_01203_2,1203,Is there oncoming traffic nearby that I need to be aware of?,4.98
+v_01203_3,1203,Is the road ahead of me clear?,4.98
+v_01204_1,1204,Are there obstacles in my path that need my attention?,12.99
+v_01204_3,1204,How do I use my cane to safely find the edge of the sidewalk?,9.0
+v_01205_1,1205,Is there anything on the sidewalk blocking my path?,12.99
+v_01205_2,1205,Is it safe for me to cross the road now?,27.0
+v_01205_3,1205,Is there a clear path for me to take?,40.98
+v_01205_4,1205,Is it safe for me to cross the road now?,24.99
+v_01205_7,1205,Is the texture guidance path clear and easy for me to follow?,52.12
+v_01206_1,1206,Are there any obstacles in front of me when I get on the bus?,3.0
+v_01207_1,1207,Is it safe to stand up now?,3.0
+v_01207_2,1207,Is there anyone close in front of me?,6.99
+v_01207_3,1207,How do I signal to the driver that I need to get off at the next stop?,6.99
+v_01208_2,1208,Are there any obstacles in my path?,33.5
+v_01208_3,1208,Can I drive straight safely?,38.48
+v_01209_2,1209,Are there any suspicious obstacles ahead?,3.95
+v_01209_4,1209,Am I at the entrance of a building?,19.09
+v_01209_5,1209,Is there anyone nearby who can help?,19.09
+v_01209_6,1209,Are there steps ahead?,28.03
+v_01210_1,1210,Is it safe to go out through this door?,69.0
+v_01210_2,1210,Is it safe to go out from here?,12.99
+v_01210_5,1210,Which direction should I go to reach the main entrance?,27.0
+v_01210_7,1210,Is there a car in front of the exit?,69.0
+v_01210_8,1210,Is the door to this building open?,54.99
+v_01211_1,1211,Is this the back seat of a car?,27.0
+v_01211_11,1211,Is the driver careful and driving safely?,224.71
+v_01211_7,1211,Are there obstacles ahead that I should be aware of?,74.65
+v_01212_1,1212,Is it safe to cross the road now?,3.99
+v_01212_3,1212,Is the sidewalk clear for walking?,13.98
+v_01214_4,1214,How can I get into this car safely?,18.99
+v_01215_1,1215,Are there any obstacles in my immediate path?,27.0
+v_01215_3,1215,Am I facing the entrance to the alley?,27.0
+v_01216_2,1216,Am I near the entrance to the building on the right?,6.99
+v_01217_4,1217,Could you tell me the nearest staircase from here?,3.0
+v_01218_1,1218,Are there any vehicles passing by when I am crossing the road?,12.99
+v_01218_3,1218,Is the food stand in front of me on the left or right side of the street?,40.98
+v_01218_4,1218,Am I facing the street now?,27.0
+v_01219_1,1219,Where is the entrance to the store?,12.99
+v_01219_2,1219,Am I at the end of the market stalls?,54.99
+v_01219_3,1219,Am I facing the entrance or the exit?,69.0
+v_01219_4,1219,Is there a sidewalk that will get me safely to my next destination?,27.0
+v_01220_1,1220,Is there a gap or hole in front of me?,15.0
+v_01220_7,1220,How can I get down these stairs safely?,28.98
+v_01221_1,1221,Can I continue along this path?,40.98
+v_01221_2,1221,Is there an obstruction in front of me on the sidewalk?,12.99
+v_01221_4,1221,Is it safe to continue straight?,40.98
+v_01221_5,1221,How can I get onto the sidewalk?,28.98
+v_01222_2,1222,Is it safe for me to move forward?,3.99
+v_01223_1,1223,What shops are there on this street?,9.0
+v_01223_2,1223,Is there a clear sidewalk ahead?,18.99
+v_01223_3,1223,Is there any obstruction on the sidewalk ahead?,10.98
+v_01224_1,1224,Can you describe the obstacles ahead?,15.0
+v_01225_1,1225,Is there anyone around who can help me navigate?,40.98
+v_01225_2,1225,What obstacles on the ground should I be careful of?,12.99
+v_01226_3,1226,"Did someone help open the door, or was it automatic?",4.98
+v_01227_3,1227,How do I call the elevator?,9.0
+v_01227_4,1227,How do I select a floor for this elevator?,39.0
+v_01227_6,1227,Is the elevator crowded?,27.0
+v_01227_7,1227,Is this the panel with the floor buttons?,40.98
+v_01228_1,1228,Are there any obstacles or people blocking the elevator entrance?,9.0
+v_01228_4,1228,Is the elevator door open?,18.99
+v_01230_2,1230,Which direction should I go to reach the exit?,12.99
+v_01230_3,1230,How can I get to the nearest elevator?,40.98
+v_01230_4,1230,Am I close to the entrance?,54.99
+v_01230_5,1230,How do I send a message on my smartphone?,48.99
+v_01231_1,1231,Are there any obstacles that might trip me up?,40.98
+v_01231_2,1231,How can I open the bathroom door?,40.98
+v_01231_4,1231,Am I facing the restroom door?,12.99
+v_01231_5,1231,Are there Braille signs giving directions?,12.99
+v_01232_1,1232,Where is the nearest toilet?,27.0
+v_01232_4,1232,Am I facing the entrance now?,12.99
+v_01233_3,1233,Is someone blocking the elevator entrance?,82.98
+v_01234_1,1234,Is someone walking me towards the horse?,3.99
+v_01234_2,1234,Is it safe to approach the horse now?,3.99
+v_01234_4,1234,How should I touch it?,3.99
+v_01235_10,1235,What is in front of me?,30.99
+v_01235_14,1235,What traffic conditions nearby should I be aware of?,95.35
+v_01235_16,1235,Is the road ahead smooth?,122.94
+v_01235_2,1235,Are there any obstacles ahead of me as I walk?,69.0
+v_01235_6,1235,What am I touching?,6.99
+v_01235_7,1235,What is this person holding?,78.99
+v_01235_8,1235,Who am I talking to?,30.99
+v_01236_1,1236,Is it safe to ride at this speed?,12.99
+v_01236_2,1236,Are there any obstacles ahead of me when I'm riding?,27.0
+v_01236_4,1236,What is in front of me?,6.99
+v_01237_2,1237,Is it safe for me to continue straight on my horse?,18.99
+v_01237_3,1237,Where am I currently riding?,6.99
+v_01237_4,1237,Is there someone guiding me?,15.0
+v_01238_1,1238,Is the area around me suitable for riding this horse?,10.98
+v_01238_2,1238,Are there people nearby who might be a danger to me while I am riding this horse?,22.98
+v_01238_3,1238,Is this horse ready to ride?,22.98
+v_01240_2,1240,Is it safe to touch animals near me?,22.98
+v_01241_3,1241,What is this animal I am touching?,6.99
+v_01241_5,1241,Are there multiple alpacas here?,30.99
+v_01242_2,1242,Is the person near the animals behaving kindly?,6.99
+v_01242_3,1242,How do I attach the leash to this animal?,3.0
+v_01243_1,1243,Is there anything I need to be careful about when petting the animals here?,12.99
+v_01243_2,1243,Will I encounter any obstacles or uneven ground while walking here?,27.0
+v_01243_3,1243,What is the woman holding?,15.0
+v_01244_2,1244,Are there any obstacles around me that might cause me to trip?,3.99
+v_01244_3,1244,Is it safe to interact with the animals here?,9.0
+v_01245_2,1245,What animals are there near me that I need to be aware of?,12.99
+v_01245_5,1245,Do any animals seem aggressive or unfriendly?,54.99
+v_01245_6,1245,What am I holding?,6.99
+v_01245_8,1245,How many alpacas are there?,54.99
+v_01246_1,1246,What is the alpaca doing?,24.99
+v_01246_3,1246,Is the area around me clear of obstructions?,27.0
+v_01247_1,1247,Is this my taxi?,6.99
+v_01248_1,1248,Are there any vehicles passing by when crossing the road?,3.0
+v_01248_2,1248,What obstacles on the sidewalk should I be aware of?,6.99
+v_01249_1,1249,Are there any obstacles in my way?,6.99
+v_01249_4,1249,What kind of stores are near me?,3.0
+v_01250_1,1250,Which button should I press to go to the first floor?,6.99
+v_01252_2,1252,What is the name of this store?,6.99
+v_01253_1,1253,Are there any suspicious people around me now?,10.98
+v_01254_1,1254,Are there any obstructions at the store entrance?,3.99
+v_01254_2,1254,What kind of store is this in front of me?,4.98
+v_01255_2,1255,Are there any obstacles in front of me?,6.99
+v_01255_3,1255,What is in front of me?,3.0
+v_01255_4,1255,What's on the wall to my right?,6.99
+v_01256_2,1256,What animal is this?,6.99
+v_01257_1,1257,Are there any obstacles around me when I pet my puppy?,54.99
+v_01258_2,1258,Is it safe to approach the animal in front of me?,96.99
+v_01258_3,1258,Is there an animal in front of us?,6.99
+v_01258_4,1258,What type of animal is ahead?,15.0
+v_01258_5,1258,What is the kangaroo eating?,39.0
+v_01260_1,1260,Is anyone else nearby feeding the birds?,13.98
+v_01260_2,1260,Is it safe for me to go on from here?,3.99
+v_01260_3,1260,What obstacles or people are near me that I need to be aware of?,9.0
+v_01260_5,1260,How to use this bird feeder?,6.0
+v_01260_6,1260,How to use this bird feeder?,12.99
+v_01260_7,1260,What am I holding?,6.0
+v_01260_8,1260,What's happening in front of me?,12.99
+v_01261_2,1261,Is there anyone nearby close enough for me to bump into?,27.0
+v_01262_1,1262,Are there any animals nearby that might trip me?,12.99
+v_01262_3,1262,What animal is that in front of me?,6.99
+v_01263_1,1263,What is my companion doing?,12.0
+v_01263_5,1263,Is anyone petting a lemur?,22.98
+v_01264_1,1264,Who's feeding the animals next to me?,12.0
+v_01264_2,1264,Are there any potentially dangerous animals near me?,12.99
+v_01264_3,1264,Is there anyone feeding animals near me?,27.0
+v_01264_4,1264,Is it safe for me to touch the animals here?,40.98
+v_01264_6,1264,What type of animals are these in front of me?,30.99
+v_01265_1,1265,Are there any obstacles ahead of me as I walk?,3.0
+v_01265_4,1265,Is there anything I can interact with?,6.99
+v_01266_1,1266,Is it safe to pet this animal now?,3.99
+v_01266_2,1266,Are there any obstacles in front of me?,9.0
+v_01267_1,1267,Is there an obstruction on the sidewalk ahead?,1.98
+v_01268_1,1268,Are there potential obstacles in my path?,3.99
+v_01268_3,1268,How do I navigate to a store with a red sign?,10.98
+v_01268_4,1268,What shops are on the right side of the corridor?,10.98
+v_01269_1,1269,Are there any obstacles or protrusions around the claw machine that I need to be aware of?,6.99
+v_01270_2,1270,Is there anyone nearby who might bump into me while I'm playing?,27.0
+v_01270_3,1270,Is it safe to reach into the machine to get the toy?,40.98
+v_01271_1,1271,Are there people nearby who could pose a potential safety risk?,9.0
+v_01271_2,1271,What types of stuffed toys are there?,3.99
+v_01272_1,1272,Are there any obstacles or sharp edges near the claw machine that I need to be aware of?,10.98
+v_01272_2,1272,Can I safely reach for the stuffed animal or is there a risk of my fingers getting caught?,22.98
+v_01272_3,1272,What types of toys are there?,6.99
+v_01273_2,1273,Is there anyone nearby behaving suspiciously or trying to take advantage of my visual impairment?,27.0
+v_01273_3,1273,How can I get the toy out of this machine?,16.0
+v_01273_4,1273,What types of plush toys are there?,6.99
+v_01274_1,1274,Is there enough space for me to move around safely?,12.99
+v_01274_2,1274,Are there any obstacles or people in front of me as I walk?,27.0
+v_01275_3,1275,How do I use this ticket machine?,9.0
+v_01275_4,1275,How to use this claw machine?,39.0
+v_01275_5,1275,Where should I put the coins in the claw machine?,58.98
+v_01275_6,1275,How can I control the claw of this machine?,88.98
+v_01275_7,1275,What to do after locating the claw?,99.0
+v_01275_8,1275,What is the person near the kiosk wearing?,15.0
+v_01276_4,1276,What toys are inside?,4.98
+v_01276_6,1276,Are there any obstacles or dangers around the claw machine?,16.65
+v_01277_2,1277,What's in the basket?,0.99
+v_01278_3,1278,What's on the shelf?,6.99
+v_01278_4,1278,What is the person in front of me holding?,15.0
+v_01278_5,1278,What item am I holding?,22.98
+v_01279_3,1279,Is there anything I might bump into if I walk in here?,9.85
+v_01280_1,1280,Is the area around this arcade machine neat and tidy so that I won't trip over it?,3.0
+v_01281_1,1281,Am I facing the store entrance?,10.98
+v_01282_1,1282,Are there any available chairs nearby?,46.98
+v_01282_2,1282,Where is the nearest exit here?,10.98
+v_01282_3,1282,Where is the cash register?,58.98
+v_01282_4,1282,How do I get to the bathroom from here?,34.98
+v_01282_5,1282,Am I facing the counter correctly?,22.98
+v_01282_8,1282,What else is on the counter?,39.0
+v_01283_1,1283,Where is the nearest exit from this counter?,10.98
+v_01283_2,1283,How far is the bathroom from this counter?,22.98
+v_01283_4,1283,How can I find the nearest information desk from here?,47.47
+v_01283_6,1283,What kind of store or place am I in now?,37.45
+v_01283_7,1283,Which direction should I leave this building?,43.45
+v_01283_8,1283,What is this person in front of me doing?,37.45
+v_01284_2,1284,Am I facing the road that leads to the nearest public transportation stop?,15.0
+v_01284_4,1284,What am I holding?,10.98
+v_01285_1,1285,Which direction should I go to leave the square?,58.98
+v_01285_13,1285,What is this object I am touching?,110.45
+v_01285_15,1285,Is there a descriptive plaque near this statue?,118.46
+v_01285_16,1285,what I'm touching?,148.46
+v_01285_2,1285,Is there something on my left side?,22.98
+v_01285_3,1285,Is there wheelchair accessible access here?,82.98
+v_01285_6,1285,How do I explore this sculpture with my hands?,18.99
+v_01286_11,1286,Am I facing a main road or a sidewalk?,46.65
+v_01286_12,1286,How do I operate a cane for walking?,42.66
+v_01286_13,1286,Are there any seats available here?,32.67
+v_01286_15,1286,Is there a small statue on the ground nearby?,52.65
+v_01286_16,1286,Is there anything interesting waiting for us ahead?,62.67
+v_01286_8,1286,How do I get to the nearest bench from here?,34.65
+v_01287_1,1287,Am I facing a bench now?,15.0
+v_01287_3,1287,What does this statue tell about?,4.98
+v_01288_1,1288,Is the shoe section to my left?,22.98
+v_01288_2,1288,Am I in the women's clothing section?,10.98
+v_01288_3,1288,What's on the shelf in front of me?,9.0
+v_01288_4,1288,What types of shoes are on these shelves?,18.99
+v_01288_5,1288,Are there any obstacles in my way?,28.98
+v_01289_1,1289,How do I use the payment terminal in this store?,15.0
+v_01289_2,1289,How can I find the nearest exit for this store?,6.99
+v_01290_1,1290,Is there a counter in front of me where I can ask for help?,22.98
+v_01290_10,1290,Does the bag have a zipper or other closure?,39.0
+v_01290_11,1290,How are the bags displayed in this store?,48.99
+v_01290_14,1290,What bag am I holding?,94.98
+v_01290_15,1290,Does the bag in front of me have a shoulder strap?,106.98
+v_01290_4,1290,Is the handbag display on my right?,58.98
+v_01290_8,1290,What is the design on this bag?,18.99
+v_01291_2,1291,Am I facing the perfume table right now?,22.98
+v_01291_4,1291,What is displayed on the central table?,18.99
+v_01291_5,1291,What items are on this shelf?,28.98
+v_01291_7,1291,Is this bottle of wine I'm holding from the Louis Vuitton collection?,54.98
+v_01292_1,1292,Which direction should I go to walk along the store?,22.98
+v_01292_2,1292,Am I in front of a handbag display case?,10.98
+v_01293_5,1293,What does the sign to the right of the man pushing the cart say?,9.0
+v_01294_10,1294,Could you take me to the nearest baby products section?,17.95
+v_01294_3,1294,Could you tell me how to get to the nearest cashier from here?,1.98
+v_01294_4,1294,Am I facing the detergent area now?,4.98
+v_01294_5,1294,Which brand am I facing now?,4.98
+v_01294_6,1294,Does this store have public restrooms?,41.95
+v_01294_7,1294,What obstacles in the aisle should I be aware of?,61.96
+v_01295_1,1295,Is there something blocking the aisle in front of me?,12.99
+v_01295_3,1295,What's the best way to unpack this?,18.99
+v_01295_4,1295,Which direction should I go to find the entrance?,22.98
+v_01295_5,1295,How can I get to the toiletries section?,34.98
+v_01295_6,1295,Could you help me find the nearest cashier?,10.98
+v_01295_7,1295,What product am I holding in my hand?,9.0
+v_01295_9,1295,How much does this product cost?,18.99
+v_01296_1,1296,How should I use this product?,39.0
+v_01296_2,1296,Which direction should I go to find the nearest exit?,34.98
+v_01296_4,1296,How far am I from the cash register?,22.98
+v_01296_7,1296,Is this packaging the same as the previous one?,28.98
+v_01297_2,1297,Is there anything on the ground that might trip me?,27.0
+v_01297_3,1297,Are the aisles crowded?,54.99
+v_01297_5,1297,How much does this product cost?,18.99
+v_01297_7,1297,Who is this person?,48.99
+v_01298_2,1298,Is there anyone around me that I might accidentally bump into?,9.0
+v_01298_3,1298,Which direction should I go to reach the exit?,9.0
+v_01298_4,1298,How do I check out at the cashier?,3.99
+v_01299_2,1299,Is there someone in front of me that I might hit?,9.0
+v_01299_5,1299,Am I facing the vegetable section?,3.99
+v_01299_6,1299,What's on offer at the fruit and vegetable stalls?,4.98
+v_01300_1,1300,Are there any items within arm's reach?,22.98
+v_01300_2,1300,Are there obstacles in front of me that need my attention?,10.98
+v_01301_1,1301,Is the road ahead of us smooth?,6.99
+v_01301_2,1301,Where is the canned food aisle?,15.0
+v_01301_4,1301,Am I in the bakery section now?,6.99
+v_01302_3,1302,What am I touching in front of me?,6.99
+v_01302_4,1302,What is this place?,4.98
+v_01303_1,1303,Is there a shop ahead?,27.0
+v_01303_2,1303,Are there any obstacles in front of me when I use the escalator?,40.98
+v_01303_4,1303,Is there an escalator in front of me?,46.98
+v_01303_5,1303,How can I get to the hygiene section?,34.98
+v_01303_7,1303,What does the big sign out front mean?,18.99
+v_01303_8,1303,What do the signs on escalators mean?,39.0
+v_01304_1,1304,Are there any vehicles or obstacles ahead?,3.0
+v_01304_3,1304,How can I get to the building entrance from here?,3.0
+v_01304_5,1304,Is this a parking lot?,3.0
+v_01305_1,1305,Are there any obstacles between me and the entrance of the store?,6.99
+v_01305_2,1305,Is there any cleaning equipment or slippery floor signs inside that I should be aware of?,15.0
+v_01305_3,1305,Where is the entrance to this store?,6.99
+v_01305_4,1305,How can I navigate to the grocery section from here?,15.0
+v_01305_6,1305,What kind of store is this?,4.98
+v_01305_7,1305,What merchandise is on display in the store?,10.98
+v_01306_1,1306,Is it safe to continue going forward?,12.99
+v_01306_5,1306,How do I find the toiletries aisle in this area?,28.98
+v_01307_1,1307,Is my path forward clear?,3.0
+v_01307_3,1307,Which direction should I go to reach the cashier?,3.0
+v_01307_4,1307,Where is the nearest exit here?,6.99
+v_01307_5,1307,What is the price of the item on the left?,3.0
+v_01307_6,1307,What section of the store am I in?,6.99
+v_01308_2,1308,Am I facing the store entrance?,10.98
+v_01309_2,1309,Are there any signs or information I should be aware of?,9.0
+v_01309_5,1309,What is the message on the sign?,3.99
+v_01309_6,1309,What products are on the shelf on the left?,9.0
+v_01310_1,1310,Is it safe to cross the road now?,12.99
+v_01310_2,1310,Is there a clear walking path on the sidewalk?,27.0
+v_01311_10,1311,What's written on my phone screen?,28.06
+v_01311_11,1311,Is it safe for me to go straight along this road?,32.33
+v_01311_13,1311,Which direction should I go to find the nearest crosswalk?,32.33
+v_01311_4,1311,Am I walking on the sidewalk right now?,9.0
+v_01311_5,1311,Are the nearby roads busy?,18.99
+v_01311_7,1311,Are there any obstacles in my path?,28.06
+v_01311_8,1311,How can I get to the nearest crosswalk from here?,28.06
+v_01312_1,1312,Is it safe for me to continue along this road?,3.99
+v_01312_2,1312,Is there any moving vehicle nearby that I should be aware of?,9.0
+v_01312_3,1312,Which direction should I go to reach the nearest crosswalk?,3.99
+v_01312_4,1312,Am I facing a main road or an adjacent sidewalk?,9.0
+v_01317_1,1317,How do I adjust my phone camera to capture the trees above?,6.99
+v_01319_2,1319,Is there a sign indicating which station this is?,28.98
+v_01320_2,1320,Is this a subway station?,4.98
+v_01321_1,1321,Is this path forward clear?,4.98
+v_01323_1,1323,Which metro stations are shown on the sign?,3.99
+v_01324_3,1324,Where is the exit?,58.98
+v_01327_1,1327,Is it safe to go on from here?,3.0
+v_01327_2,1327,Are there any obstructions on the sidewalk?,6.99
+v_01328_1,1328,Can I walk safely to the front door of the bus without bumping into anything?,1.98
+v_01328_2,1328,Who are the people standing in the aisle that I need to be careful of?,4.98
+v_01330_1,1330,Are there any obstacles or people blocking my way in this mall?,6.99
+v_01331_2,1331,Is the door ahead open?,10.98
+v_01331_3,1331,Are there any obstacles near me?,22.98
+v_01332_2,1332,Is the path to the bookshelf clear?,22.98
+v_01332_4,1332,Are there any books or objects I might knock over?,46.98
+v_01332_5,1332,Are there any obstacles in front of the shelf?,65.91
+v_01332_6,1332,Is there enough space in the area to move around safely?,77.91
+v_01333_2,1333,Are there any sharp edges or potential hazards on this shelf that I should be aware of when retrieving documents?,22.98
+v_01334_1,1334,Is there any obstacle in front of me on the table?,10.98
+v_01335_1,1335,Which direction should I go to cross the street safely?,10.98
+v_01335_2,1335,Where is the nearest crosswalk?,4.98
+v_01335_3,1335,Is there a crosswalk ahead of me?,15.0
+v_01336_2,1336,Am I still heading in the same direction as before?,24.99
+v_01336_5,1336,Is this a busy street?,58.98
+v_01338_2,1338,Where is this car?,9.0
+v_01339_1,1339,Where am I now?,9.0
+v_01339_4,1339,Who sits next to me?,58.98
+v_01340_1,1340,Which direction should I go to reach the exit?,10.98
+v_01340_3,1340,Where am I?,15.0
+v_01341_1,1341,Is the security guard approaching us?,51.0
+v_01341_11,1341,What is the ceiling design like?,39.0
+v_01341_13,1341,What do the signs and information boards say?,88.98
+v_01341_3,1341,Is the officer handing me anything?,90.0
+v_01341_7,1341,How can I get to the nearest ticket booth from here?,102.99
+v_01341_8,1341,Am I close to the exit?,115.98
+v_01342_4,1342,Have I reached the bus stop yet?,9.0
+v_01342_5,1342,Which bus is this?,49.0
+v_01343_1,1343,What's the bus number?,18.99
+v_01343_2,1343,Which bus is this?,18.99
+v_01343_3,1343,Which bus is this?,7.0
+v_01344_1,1344,Which bus number is this?,9.0
+v_01344_2,1344,Has the bus arrived at the stop?,18.99
+v_01344_3,1344,Is there information about bus routes on the poster?,28.98
+v_01344_5,1344,What does the sign on the top of this bus say?,48.99
+v_01344_8,1344,How's the view outside?,78.99
+v_01345_1,1345,Are there any cars coming from my right?,37.98
+v_01345_3,1345,How busy is this intersection?,28.98
+v_01346_2,1346,What buildings are around me?,18.99
+v_01346_3,1346,Where do I sit in the car?,39.0
+v_01347_1,1347,Where do I stand?,63.99
+v_01347_4,1347,What type of vehicle is approaching?,18.99
+v_01349_1,1349,Is it safe to cross the road here?,108.99
+v_01349_3,1349,Is the supermarket entrance on my left?,24.99
+v_01349_4,1349,How can I get to the crosswalk from here?,37.98
+v_01349_6,1349,Is this my carpool?,9.0
+v_01350_1,1350,Which direction should I go to get to the other side of the street safely?,52.98
+v_01350_2,1350,Which direction should I go to find the crosswalk?,64.98
+v_01350_4,1350,Is it safe to cross the road from here?,76.98
+v_01350_5,1350,Is it safe to cross the road in front of me?,40.98
+v_01350_8,1350,Am I going to the main shopping street?,16.98
+v_01350_9,1350,Am I facing the main road?,70.98
+v_01351_10,1351,Which direction should I go to avoid the parked cars?,28.98
+v_01351_11,1351,What is the layout of this street?,39.0
+v_01351_12,1351,How many steps are there in this staircase?,48.99
+v_01351_14,1351,What can you see in this room?,78.99
+v_01351_3,1351,Where am I?,4.98
+v_01351_4,1351,Am I walking through an alley?,10.98
+v_01351_7,1351,How do I find the entrance door to this building?,39.0
+v_01352_1,1352,Can someone help me scan the QR code?,9.0
+v_01353_4,1353,Where is the counter?,34.98
+v_01353_5,1353,How do I navigate into the store?,18.99
+v_01353_7,1353,Could you please confirm if this is a pharmacy?,28.98
+v_01354_1,1354,Where is the traffic light?,4.98
+v_01354_10,1354,How many lanes does this street have?,78.99
+v_01354_11,1354,What does the sign on the building to my right say?,88.98
+v_01354_4,1354,How can I get to the nearest bus stop from here?,76.98
+v_01354_7,1354,Is there a store or entrance to my right?,118.98
+v_01354_9,1354,What does the street scene ahead look like?,69.0
+v_01355_1,1355,How can I get through this intersection?,48.99
+v_01355_11,1355,Is there a clear path ahead for me?,18.99
+v_01355_13,1355,Is there anyone walking towards me?,78.99
+v_01355_14,1355,Could you please tell me if there is any obstruction on the sidewalk ahead?,88.98
+v_01355_5,1355,Is there a pedestrian crossing in front of me?,22.98
+v_01355_6,1355,Is it safe to cross the road here?,52.98
+v_01356_2,1356,Have I reached the main exit of the building?,16.98
+v_01357_1,1357,What types of establishments are located on this street?,18.99
+v_01357_4,1357,Am I facing the main road now?,46.98
+v_01358_1,1358,Who is guiding me through the store?,51.0
+v_01358_3,1358,Is this building an office or a shopping mall?,18.99
+v_01358_4,1358,Am I at the building entrance?,28.98
+v_01359_1,1359,Are there any visible directional signs?,48.99
+v_01360_1,1360,How do I open the car's window?,9.0
+v_01361_1,1361,How far is this person from me now?,24.99
+v_01363_1,1363,Can you describe the area around this entrance?,4.98
+v_01363_2,1363,Is it safe to proceed?,7.98
+v_01365_1,1365,Could you help me find somewhere to sit nearby?,1.98
+v_01366_1,1366,Is it safe to cross the road now?,9.0
+v_01368_1,1368,Is it safe to walk along this road?,9.0
+v_01369_1,1369,Where is the shelf with the decorations?,22.98
+v_01371_3,1371,What is this object on the table?,9.0
+v_01371_5,1371,What tools do I use to paint?,28.98
+v_01371_7,1371,How can I get to the shelves filled with ceramics?,46.98
+v_01373_1,1373,What am I holding now?,3.99
+v_01373_3,1373,What does the cup in my hand look like?,9.0
+v_01375_1,1375,What is on this table? How do I identify each object?,9.0
+v_01375_18,1375,What is in my hand?,18.99
+v_01375_20,1375,What's on the table in front of me?,154.98
+v_01375_21,1375,What items are on the middle shelf in front of me?,160.98
+v_01375_24,1375,What does the surface of this figurine feel like?,48.99
+v_01375_25,1375,Is there a table in front of me?,46.98
+v_01375_3,1375,Which direction should I go out?,82.98
+v_01375_5,1375,Where should I place this item on the shelf?,22.98
+v_01376_2,1376,What items are displayed on the shelves?,1.98
+v_01376_3,1376,Is there any sign or label with information on that shelf?,4.98
+v_01377_3,1377,How do I get to the counter from here?,52.98
+v_01377_6,1377,What is in my hand?,9.0
+v_01377_7,1377,Am I facing the service counter?,64.98
+v_01377_8,1377,What is in my hand?,58.98
+v_01377_9,1377,Am I facing a display of trinkets?,22.98
+v_01378_2,1378,How do I get to the counter?,16.98
+v_01378_4,1378,Am I facing the exit now?,10.98
+v_01379_1,1379,Which direction should I go to reach the bathroom?,40.98
+v_01379_10,1379,What does this cup look like?,18.99
+v_01379_12,1379,Is there any writing or label on the item I am holding?,88.98
+v_01379_19,1379,Is there a plate or palette nearby for the paint?,180.68
+v_01379_2,1379,Where is the nearest toilet?,94.98
+v_01379_20,1379,Am I in the right place to start painting?,186.68
+v_01379_21,1379,What's on the table in front of me?,198.68
+v_01379_23,1379,What's on the table in front of me?,114.68
+v_01379_3,1379,Where is the counter here?,10.98
+v_01379_31,1379,Is the cup I chose for painting appropriate?,156.68
+v_01379_7,1379,Is there a menu on this table?,64.98
+v_01380_1,1380,Which way should I turn the cup to draw a pattern on it?,58.98
+v_01380_4,1380,Where is the exit from this room?,70.98
+v_01380_8,1380,Are there any obstacles on the table in front of me?,95.43
+v_01380_9,1380,Is the object chicken-shaped?,95.43
+v_01381_1,1381,Where are the restrooms in this area?,40.98
+v_01381_2,1381,How do I get to the main entrance?,46.98
+v_01381_5,1381,What is on the table in front of us?,28.98
+v_01382_1,1382,What items are on the shelf in front of me?,24.12
+v_01382_3,1382,What am I holding?,36.12
+v_01382_5,1382,How do I get to the restroom?,9.0
+v_01382_7,1382,How do I find the nearest shelf to put my small item back?,18.47
+v_01383_2,1383,How can I get to the nearest exit from here?,22.98
+v_01383_3,1383,Am I facing the entrance to the alley?,4.98
+v_01384_1,1384,Is there a sign showing the direction to the nearest entrance?,28.98
+v_01385_2,1385,Does the building have an accessible entrance?,10.98
+v_01385_4,1385,How do I get through this covered market?,28.98
+v_01385_6,1385,How do I find an electronics store near me?,34.98
+v_01385_7,1385,Am I touching the door handle correctly?,22.98
+v_01385_8,1385,How can I get through these plastic curtain strips?,18.99
+v_01386_1,1386,Where is the cashier counter?,16.98
+v_01386_2,1386,Am I standing at the entrance of a store?,4.98
+v_01387_1,1387,Is the path ahead clear enough for me to keep going?,10.98
+v_01388_1,1388,Which direction should I go to find the nearest crosswalk?,10.98
+v_01388_2,1388,Where is the nearest bus stop to my current location?,16.98
+v_01388_3,1388,Where is the entrance to the medical facility?,28.98
+v_01388_5,1388,How can I get to the entrance of the building in front?,22.98
+v_01388_6,1388,Am I in the clinic now?,34.98
+v_01389_1,1389,Am I in the elevator or waiting for it?,4.98
+v_01390_1,1390,Is this the entrance to the Department of Surgery?,4.98
+v_01390_3,1390,Is that the nurse's desk in front of me?,12.0
+v_01391_1,1391,Who am I talking to?,7.98
+v_01392_1,1392,Which floor does the elevator reach?,4.98
+v_01392_3,1392,Is the elevator going up or down?,21.83
+v_01392_5,1392,Am I facing the elevator now?,27.11
+v_01393_2,1393,Where is the nearest exit to my current location?,4.98
+v_01393_3,1393,Am I facing the clinic entrance?,10.98
+v_01394_3,1394,How can I get to the exit from here?,4.98
+v_01394_4,1394,Am I facing reception?,16.98
+v_01394_5,1394,Who's talking and laughing near the corridor?,7.98
+v_01395_1,1395,Which direction should I go to find the counseling room?,46.98
+v_01395_4,1395,How can I get to the nearest bathroom from here?,28.98
+v_01398_2,1398,Are manhole covers closed properly?,12.0
+v_01398_3,1398,What is this object on the sidewalk and is it safe to pass?,9.0
+v_01398_4,1398,Are the signs for the blind paths clear and easy to understand?,37.98
+v_01400_3,1400,Is there anyone or anything near the front gate?,18.99
+v_01400_4,1400,Are there any obstacles ahead of me?,28.98
+v_01400_5,1400,Is the door in front of me open?,39.0
+v_01400_9,1400,Are there any obstacles on the way forward?,88.98
+v_01401_1,1401,Are the stairs nearby?,28.98
+v_01401_2,1401,What does the sign on the counter say?,39.0
+v_01403_1,1403,Is there a directional sign or any indicator on the floor in front of me?,9.0
+v_01403_2,1403,What's in this metal container?,18.99
+v_01405_2,1405,Which room am I in?,3.99
+v_01408_3,1408,What is the color and type of furniture in front of me?,1.98
+v_01409_2,1409,What can you see through the railing?,28.98
+v_01409_3,1409,How to use the air conditioner remote control in this room?,40.5
+v_01409_4,1409,How do I use this staircase safely?,47.49
+v_01410_1,1410,How to control the fire power of induction cooker?,28.98
+v_01410_3,1410,How to use induction cooker safely when cooking?,64.55
+v_01411_2,1411,Is the oil bottle next to the stove open?,12.99
+v_01412_3,1412,What's in the container?,9.0
+v_01413_1,1413,Which direction should I go to reach the nearest main road?,22.98
+v_01413_2,1413,Is there enough room to pass on my left?,4.98
+v_01413_3,1413,How can I safely get around this parked car?,9.0
+v_01413_4,1413,Am I about to reach a bend in the road ahead?,16.98
+v_01413_5,1413,Can I walk through the right side?,10.98
+v_01413_6,1413,"If I walk straight ahead, is there anything blocking the way?",9.0
+v_01414_1,1414,Which direction is the safest to walk from here?,40.98
+v_01414_4,1414,Is there an intersection ahead?,4.98
+v_01414_8,1414,Are there any obstacles on the way forward?,39.0
+v_01415_1,1415,How can I get to the scale and weigh my watermelon?,16.98
+v_01416_1,1416,How to buy watermelon from this street vendor?,3.99
+v_01417_1,1417,What obstacles are there on the road ahead?,15.0
+v_01417_3,1417,Am I approaching the edge of the sidewalk?,10.98
+v_01418_1,1418,Where should I go to avoid hitting the scooter in front of me?,4.98
+v_01418_2,1418,What is in front of me?,22.98
+v_01418_3,1418,Is there a clear path forward from now on?,16.98
+v_01419_1,1419,What is the flight departure time on the display?,3.99
+v_01420_2,1420,Am I near the bread section now?,10.98
+v_01421_2,1421,What is the price of the item I pointed to?,1.98
+v_01421_3,1421,What is the price of this product?,1.98
+v_01421_4,1421,Is the soup I point at on sale?,4.98
+v_01423_1,1423,Did I just reach the edge of the sidewalk?,18.99
+v_01425_1,1425,What animals are in this scene?,1.98
+v_01426_1,1426,What's hanging on the clothesline?,1.98
+v_01428_1,1428,What is in front of me?,9.0
+v_01429_1,1429,Which floor did I press in the elevator?,6.0
+v_01430_2,1430,Is the door opening?,4.98
+v_01432_1,1432,Can you confirm that we are on line 2?,15.0
+v_01433_1,1433,Are there priority seats empty?,18.99
+v_01433_2,1433,What am I holding?,28.98
+v_01434_1,1434,Where am I?,5.18
+v_01434_4,1434,Who is this person?,41.95
+v_01434_9,1434,Where is this?,154.08
+v_01435_2,1435,Did I get into the elevator?,10.72
+v_01435_4,1435,Where is the subway door?,70.63
+v_01435_5,1435,Where are the door handles?,199.63
+v_01436_1,1436,Is Lanzhou Ramen here?,2.06
+v_01436_2,1436,What kind of store is this?,8.2
+v_01438_1,1438,Which bus is this?,34.65
+v_01438_4,1438,Where are the empty seats?,68.3
+v_01439_1,1439,Is this a sidewalk?,1.75
+v_01440_2,1440,Where's my cane?,32.5
+v_01442_1,1442,Is there any landmark here?,3.09
+v_01442_3,1442,Where are the handlebars?,86.48
+v_01443_1,1443,Is there an obstacle ahead?,1.67
+v_01443_2,1443,Are you almost at the door?,30.41
+v_01444_1,1444,What's this?,1.62
+v_01446_1,1446,Is there an obstacle ahead?,0.81
+v_01446_2,1446,Is this where they sell vegetables?,2.86
+v_01446_3,1446,Is there any food in here?,18.8
+v_01446_6,1446,What's this?,39.59
+v_01447_1,1447,Are we there yet?,5.14
+v_01448_2,1448,Is this a blind path?,45.6
+v_01448_4,1448,Where is the blind path?,65.5
+v_01448_6,1448,Where is ahead?,128.55
+v_01448_8,1448,Where is the escalator?,159.28
+v_01449_1,1449,Could you help me find the blind path?,2.09
+v_01451_1,1451,Which floor is the elevator on?,0.34
+v_01451_3,1451,Which floor is this?,8.46
+v_01451_4,1451,Which floor button did I press?,11.34
+v_01452_1,1452,Where is HEYTEA?,5.8
+v_01452_3,1452,Is there a shop ahead?,33.35
+v_01453_2,1453,What's this?,59.47
+v_01454_1,1454,What color is the traffic light now?,84.0
+v_01454_3,1454,Where and what color is the traffic light?,109.02
+v_01456_1,1456,Who is talking to me?,10.54
+v_01457_1,1457,Is there an obstacle ahead?,14.12
+v_01458_1,1458,Am I walking on the sidewalk?,7.25
+v_01460_1,1460,Is there an obstacle ahead?,1.71
+v_01461_3,1461,Is there anyone sitting next to me?,20.49
+v_01462_1,1462,Where is the blind path?,3.05
+v_01462_2,1462,Is there an obstacle ahead?,9.89
+v_01466_3,1466,Am I on the sidewalk?,25.62
+v_01469_1,1469,Is there a door ahead that I can enter?,69.52
+v_01470_1,1470,Is the milk boiling?,39.81
+v_01471_1,1471,Is there an obstacle ahead?,22.22
+v_01471_3,1471,Where is this?,74.37
+v_01472_1,1472,How do I get to the front desk from here?,3.0
+v_01473_1,1473,How can I get to the seating area?,4.98
+v_01474_1,1474,What is the purpose of these small decorative containers?,18.99
+v_01475_1,1475,Which direction are these cups?,4.98
+v_01477_2,1477,Can you help me differentiate the texture of these cups?,28.98
+v_01478_2,1478,What is this?,7.0
+v_01480_1,1480,What is in front of me?,6.99
+v_01481_2,1481,What is in front of me?,18.99
+v_01482_1,1482,What is displayed on the wall in front of me?,29.45
+v_01483_1,1483,What is the book in front of me?,6.99
+v_01484_1,1484,What kind of flower is this?,3.99
+v_01485_1,1485,What is written on this exhibit?,3.99
+v_01488_1,1488,Is there a crosswalk here?,6.99
+v_01489_1,1489,Is the road ahead clear?,12.99
+v_01490_1,1490,Who is walking ahead of me?,9.0
+v_01491_1,1491,What is the person next to me holding?,9.0
+v_01493_1,1493,What document do I hold?,1.98
+v_01494_2,1494,Is there a sign in the pathway?,4.98
+v_01495_1,1495,How can I get through this door?,6.99
+v_01495_2,1495,Did I get in successfully?,6.99
+v_01497_1,1497,What items are displayed in this refrigerator?,51.62
+v_01498_1,1498,Will the taxi driver come to help me with my luggage?,1.98
+v_01499_1,1499,Is there a taxi in front of me?,4.98
+v_01499_2,1499,What's my surrounding area like?,20.38
+v_01502_1,1502,What's on the floor in front of me?,12.99
+v_01504_1,1504,How do I turn on the flashlight?,9.0
+v_01504_3,1504,What breed is this cat?,81.58
+v_01505_1,1505,Is the train crowded now?,24.89
+v_01506_1,1506,Where is the restroom?,1.98
+v_01509_1,1509,Is there anything I should be careful about when walking here?,6.99
+v_01510_1,1510,What level am I at?,1.98
+v_01512_1,1512,Is there anyone else around who can help me?,9.0
+v_01513_2,1513,Is there a car parked to my right?,10.98
+v_01514_1,1514,"When I step out of the elevator, is there anyone in front of me?",9.0
+v_01516_1,1516,Are there any obstacles in my way?,9.0
+v_01517_1,1517,What does the road ahead look like?,10.98
+v_01518_2,1518,Am I standing on the sidewalk?,10.91
+v_01521_1,1521,Which floor is this elevator on?,7.98
+v_01521_2,1521,Is this elevator going up or down?,16.98
+v_01522_2,1522,Is there a warning sign on the floor ahead?,4.98
+v_01522_5,1522,Who walks ahead of me in this store?,46.02
+v_01522_6,1522,Are there obstacles in my way?,46.02
+v_01523_3,1523,How much is the bread at the counter?,27.0
+v_01524_1,1524,What's this?,27.0
+v_01524_2,1524,What's outside the door?,54.99
+v_01525_1,1525,Has my baggage made it to the conveyor belt?,4.98
+v_01528_2,1528,Is this the taxi (T4) pick-up area?,1.98
+v_01528_3,1528,Are there any signs indicating where to wait for taxis?,4.98
+v_01530_1,1530,Where are we now?,7.98
+v_01530_2,1530,Is there a store or counter near us?,16.98
+v_01531_3,1531,Is there a trash can nearby?,9.0
+v_01532_1,1532,Is there anyone nearby who can help me board the plane?,7.98
+v_01532_3,1532,How do I get to the airport?,7.98
+v_01533_2,1533,Which seat do I sit in?,74.97
+v_01533_3,1533,What's the ad in front of my seat?,80.97
+v_01535_1,1535,Is there a clear path ahead of us?,9.0
+v_01536_1,1536,What's on the road ahead of me?,3.99
+v_01536_2,1536,Am I approaching any obstacles?,9.0
+v_01537_1,1537,Are there any obstacles on the road ahead?,1.98
+v_01538_1,1538,Does my companion help me choose the right product from the shelf?,10.98
+v_01538_2,1538,What is that in my hand?,12.99
+v_01539_1,1539,Is the sidewalk in front of me safe to walk on?,9.0
+v_01540_5,1540,Is there any parking available nearby?,69.0
+v_01541_1,1541,Are there any obstacles on the ground?,9.0
+v_01542_1,1542,Does this road go straight forward?,27.0
+v_01542_2,1542,Are there any obstacles on this path?,40.98
+v_01543_1,1543,Where is a safe path around these parked vehicles?,10.98
+v_01546_2,1546,What's behind the fence?,27.0
+v_01547_3,1547,Can I continue on the road ahead smoothly?,12.99
+v_01548_2,1548,Is it safe to cross the road now?,21.0
+v_01549_1,1549,Has the pedestrian crossing light turned green?,10.98
+v_01549_2,1549,Is there a crosswalk here?,12.99
+v_01549_3,1549,Do I walk along the edge of the sidewalk?,27.0
+v_01550_1,1550,Where is the blind path over here?,4.06
+v_01550_11,1550,Did I knock something down?,126.13
+v_01550_12,1550,Where is Qianji?,129.32
+v_01550_3,1550,Is there a dangerous vehicle approaching me?,31.23
+v_01550_5,1550,Are there many people ahead?,46.33
+v_01550_6,1550,Where is the shop to buy cakes?,54.49
+v_01550_7,1550,What store is this?,65.08
+v_01550_8,1550,Who is the person talking to me?,83.03
+v_01551_11,1551,Is this a store that sells chestnuts?,138.02
+v_01551_12,1551,What is the price of chestnuts?,185.46
+v_01551_4,1551,Where does this blind path lead to?,39.83
+v_01551_8,1551,Is there a store ahead?,101.72
+v_01551_9,1551,What shops are there here?,117.69
+v_01552_10,1552,Where is the menu?,92.9
+v_01552_12,1552,What do we sell here?,128.91
+v_01552_16,1552,What does this hat look like?,175.95
+v_01552_2,1552,Where did he go?,7.08
+v_01552_5,1552,Is it here?,19.44
+v_01552_8,1552,Where is the nearby milk tea shop?,68.69
+v_01553_1,1553,Am I walking on the sidewalk?,6.17
+v_01553_2,1553,How does our dish look?,195.23
+v_01554_1,1554,Where is my car?,43.58
+v_01554_2,1554,Is there a car coming towards me?,47.0
+v_01555_3,1555,Is this another exit?,78.5
+v_01555_4,1555,Is there an electric vehicle passing by on the overpass?,88.79
+v_01556_11,1556,Is there anyone nearby who can ask?,96.43
+v_01556_15,1556,Am I on the checkout page?,164.96
+v_01556_2,1556,Where is the entrance to the supermarket?,15.21
+v_01556_3,1556,Am I in the supermarket?,34.07
+v_01556_7,1556,What area am I in?,67.72
+v_01556_8,1556,How to bypass this obstacle?,75.42
+v_01560_1,1560,Is this the QR code for ordering?,76.63
+v_01561_2,1561,Am I walking on the sidewalk now?,27.93
+v_01561_4,1561,Is there a road ahead?,71.69
+v_01561_7,1561,Should I keep walking along the sidewalk?,137.63
+v_01562_1,1562,Am I on the road?,11.36
+v_01562_10,1562,Where is the door?,198.31
+v_01562_11,1562,Is this the pharmacy staff?,206.62
+v_01562_2,1562,Where is the pharmacy?,68.32
+v_01562_3,1562,Where is the pharmacy?,74.72
+v_01562_4,1562,Where are the people around?,81.69
+v_01562_7,1562,Is there anyone nearby?,153.75
+v_01562_8,1562,Where is the pharmacy?,175.31
+v_01562_9,1562,Where is the door?,194.69
+v_01563_1,1563,Are there any blind people ahead?,27.39
+v_01564_2,1564,which bus have we come across?,129.77
+v_01564_3,1564,Is there anyone nearby?,149.2
+v_01565_2,1565,How to go?,46.56
+v_01565_3,1565,How to bypass this obstacle?,49.79
+v_01565_5,1565,What is this?,155.36
+v_01566_2,1566,Where is the cafeteria door?,26.59
+v_01566_4,1566,Where is the stall selling oil-splashed noodles?,62.08
+v_01566_7,1566,What window is this?,129.12
+v_01566_8,1566,Is this oil spill noodles?,178.22
+v_01568_3,1568,Is there any danger ahead?,110.92
+v_01569_2,1569,Is this the cafeteria?,33.43
+v_01569_3,1569,Is this the staircase to the second floor of the cafeteria?,43.98
+v_01569_5,1569,Did I go out?,168.33
+v_01570_1,1570,Are there any obstacles in the road ahead?,7.99
+v_01570_3,1570,What is this for sale?,38.0
+v_01570_5,1570,What does this store sell?,184.0
+v_01571_3,1571,Have I arrived at the station?,20.28
+v_01571_4,1571,Why can't we get around it?,31.05
+v_01572_10,1572,What is ahead?,208.56
+v_01572_11,1572,What is this?,223.45
+v_01572_12,1572,Which direction should I go to the sidewalk?,223.79
+v_01572_4,1572,Are there any obstacles ahead?,63.66
+v_01572_5,1572,Are there any obstacles ahead?,68.92
+v_01572_6,1572,What is this?,81.53
+v_01572_7,1572,Is it blocked here?,82.88
+v_01573_2,1573,Did I go astray?,39.08
+v_01574_2,1574,Is this a table?,52.66
+v_01574_3,1574,Is there anything on the table?,53.6
+v_01574_5,1574,Does this device look safe?,134.94
+v_01575_1,1575,Are there any obstacles on the blind path ahead?,14.76
+v_01575_3,1575,What is this?,41.96
+v_01575_4,1575,What is this?,60.84
+v_01575_5,1575,Can I pass ahead?,68.44
+v_01576_3,1576,How many people are in line ahead?,67.43
+v_01576_5,1576,Where is my milk tea?,128.21
+v_01577_1,1577,Is there a parked car in front of me?,5.63
+v_01577_2,1577,Is the car door open?,11.59
+v_01578_2,1578,Is there a zebra crossing ahead?,33.72
+v_01578_3,1578,What color is the traffic light?,37.25
+v_01578_4,1578,What color are the traffic lights?,48.59
