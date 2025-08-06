@@ -15,6 +15,10 @@ The first VideoQA dataset collected from real blind people towards egocentric vi
 3) Answers are not only correct to the visual contents but must be helpful to the users.
 
 ![EgoBlind](misc/intro.jpg)
+
+## Todo
+1. [ ] Release finetuning code.
+
 ## Data Examples
 ![EgoBlind](misc/egoblind.jpg)
 ## Download
