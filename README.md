@@ -1,4 +1,4 @@
-# [EgoBlind(NeurIPS'25 D&B Track)](https://arxiv.org/abs/2503.08221)
+# [EgoBlind](https://arxiv.org/abs/2503.08221)
 The first VideoQA dataset collected from real blind people towards egocentric visual assistance. EgoBlind comprises 1,392 videos that record the daily lives of real blind users from a first-person perspective. It also features 5.3K questions directly posed or generated and verified by blind individuals to reflect their in-situation needs for visual assistance under various scenarios.
 
 **Highlights**:
