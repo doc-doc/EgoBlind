@@ -1,4 +1,4 @@
-# [EgoBlind](https://arxiv.org/abs/2503.08221)
+# [EgoBlind(NeurIPS'25 D&B Track)](https://arxiv.org/abs/2503.08221)
 The first VideoQA dataset collected from real blind people towards egocentric visual assistance. EgoBlind comprises 1,392 videos that record the daily lives of real blind users from a first-person perspective. It also features 5.3K questions directly posed or generated and verified by blind individuals to reflect their in-situation needs for visual assistance under various scenarios.
 
 **Highlights**:
@@ -22,7 +22,7 @@ The first VideoQA dataset collected from real blind people towards egocentric vi
 ## Data Examples
 ![EgoBlind](misc/egoblind.jpg)
 ## Download
-We are glad to share that the dataset can be freely used for research purpose, but with video source being cited for distribution. Please download EgoBlind from [Google Driven](https://drive.google.com/drive/folders/1MHY7COE0hARiGe-3uO3_vO5PPLhFx2nZ?usp=sharing) (about 80G). Optionally, you can download the [test set](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing) for evaluation purpose (about 32G).  
+We are glad to share that the dataset can be freely used for research purpose, but with video source being cited for distribution. Please download EgoBlind from [Google Driven](https://drive.google.com/drive/folders/1MHY7COE0hARiGe-3uO3_vO5PPLhFx2nZ?usp=sharing) (about 80G). Optionally, you can download the [test set]([https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing](https://drive.google.com/drive/folders/1Kl6I_prWGbevk-wNi1KQ-1FvNIJm7X33?usp=sharing)) for evaluation purpose (about 32G).  
 
 ## Evaluation
 A random half of the ground-truth answers in the test set are withheld by us, please send a complete prediction file to (junbin@comp.nus.edu.sg) for full evaluation. We provide the evaluation script along with an example full prediction file for testing. Please ensure that you have an OpenAI API key before running the script:
