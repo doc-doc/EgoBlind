@@ -1,0 +1,9 @@
+{
+  "egoblind": {
+    "root": "../video_clip/",
+    "annotation": "../data/internvl.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": 6032
+  }
+}
