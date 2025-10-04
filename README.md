@@ -7,7 +7,7 @@ EgoBlind (Accepted to NeurIPS'25 D&B Track) is the first VideoQA dataset collect
 3) GPT-4o and Gemini 2.5 level intelligence can only achieves accuracy of 55%~60%, falling behind human by a whopping ~28%.
 4) Our comprehensive analyses elicit three major challenges: ```Egocentric dynamic scene understanding```, ```In-situatin user intention reasoning```, and ```Helpful and reliable answer generation```.
 5) A blind-specific prompt consistently benefits answering different types of questions, indicating a data difference between EgoBlind and common VideoQA. 
-6) Instruction tuning with EgoBlind training data can signifiantly improve the open-source model performances (e.g., improving InternVL2.5-8B from 55.8% to 62.1%,  surpassing the SOTA GPT-4o by 1.5%).
+6) Instruction tuning with EgoBlind training data can remarkablyly improve the open-source model performances (e.g., improving InternVL2.5-8B by 4.6% from 53.5% to 58.1%).
 
 ## Data Characteristics
 1) Regions of interest are often off-center and not well-focused.
