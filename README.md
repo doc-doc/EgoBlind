@@ -17,7 +17,7 @@ EgoBlind (Accepted to NeurIPS'25 D&B Track) is the first VideoQA dataset collect
 ![EgoBlind](misc/intro.jpg)
 
 ## Todo
-1. [ ] Release finetuning code.
+1. [x] Release finetuning code.
 
 ## Data Examples
 ![EgoBlind](misc/egoblind.jpg)
