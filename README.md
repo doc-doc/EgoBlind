@@ -4,7 +4,7 @@ EgoBlind (Accepted to NeurIPS'25 D&B Track) is the first VideoQA dataset collect
 **Highlights**:
 1) EgoBlind videos reflect the real daily life of the blind and the visually-impaired. Both the questions and answers are in-situation, based on the users' personal activities and intentions.
 2) We provide well-classified question types and multiple ground-truth answer annotations for better evaluation and analysis, the answers are timestamp-specific to support live QA.
-3) GPT-4o and Gemini 2.5 level intelligence can only achieves accuracy of 55%~60%, falling behind human by a whopping ~27%.
+3) GPT-4o and Gemini 2.5 level intelligence can only achieves accuracy of 55%~60%, falling behind human by a whopping ~28%.
 4) Our comprehensive analyses elicit three major challenges: ```Egocentric dynamic scene understanding```, ```In-situatin user intention reasoning```, and ```Helpful and reliable answer generation```.
 5) A blind-specific prompt consistently benefits answering different types of questions, indicating a data difference between EgoBlind and common VideoQA. 
 6) Instruction tuning with EgoBlind training data can signifiantly improve the open-source model performances (e.g., improving InternVL2.5-8B from 55.8% to 62.1%,  surpassing the SOTA GPT-4o by 1.5%).
@@ -33,23 +33,23 @@ The evaluation may take about 18 minutes, and the results will be saved to metri
 ## Benchmarking
 | Methods              | LLM                | Res.     | #F      | Tool Use   | Information | Navigation | Safety    | Communication | Resource  | Average   |
 |----------------------|--------------------|----------|---------|------------|-------------|------------|-----------|----------------|-----------|-----------|
-| **Human**            | -                  | -        | -       | 70.4 / 3.4 | 87.0 / 4.3  | 83.1 / 3.9 | 91.9 / 4.5 | 94.7 / 4.7     | 96.6 / 4.6| 87.4 / 4.2|
-| [ShareGPT4Video](https://github.com/ShareGPT4Omni/ShareGPT4Video)   | LLaMA3-8B          | -        | 2fps    | 36.0 / 2.3 | 34.5 / 2.0  | 18.6 / 1.5 | 43.5 / 2.3 | 40.3 / 2.2  | 26.0 / 1.7| 33.9 / 2.0|
-| [CogVLM2-Video](https://github.com/THUDM/CogVLM2)   | LLaMA3-8B          | 224²     | 24      | 37.4 / 2.4 | 45.8 / 2.4  | 15.5 / 1.4 | 51.4 / 2.6 | 44.4 / 2.4     | 34.1 / 2.0 | 41.2 / 2.3|
-| [Video-LLaMA3](https://github.com/DAMO-NLP-SG/VideoLLaMA3)    | Qwen2.5-7B         | ori      | 1fps    | 46.9 / 2.5 | 54.5 / 2.8  | 38.9 / 2.2 | 53.6 / 2.8 | 48.6 / 2.6 | 53.8 / 2.8 | 51.3 / 2.7|
-| [LLaVA-OV](https://github.com/LLaVA-VL/LLaVA-NeXT)        | Qwen2.7B           | 384²     | 16      | 59.9 / 3.1 | 57.1 / 3.0  | 31.4 / 2.1 | 65.9 / 3.3 | 58.3 / 3.0     | 50.2 / 2.7| 55.1 / 2.9|
-| [InternVL2.5-8B](https://github.com/OpenGVLab/InternVL)  | InternLM2.5-Chat-7B| 448²     | 8       | 59.2 / 3.2 | 57.9 / 3.0  | 43.8 / 2.6 | 60.1 / 3.0 | 44.4 / 2.4     | 54.3 / 2.9| 55.8 / 2.9|
-| [InternVL2.5-26B](https://github.com/OpenGVLab/InternVL) | InternLM2.5-Chat-20B| 448²    | 8       | 69.4 / 3.4 | 58.6 / 3.0  | 49.5 / 2.7 | 57.0 / 2.9 | 43.1 / 2.3     | 53.2 / 2.8| 56.6 / 2.9|
-| [MiniCPM-V 2.6](https://github.com/OpenBMB/MiniCPM-o)   | Qwen2-7B           | 384²     | 1fps      | 51.0 / 2.5 | 49.8 / 2.6  | 38.4 / 2.2 | 34.2 / 1.9 | 37.5 / 2.0     | 42.8 / 2.2| 43.6 / 2.3|
-| [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL)       | Qwen2.5-7B         | ori      | 1fps    | 56.5 / 3.1 | 53.8 / 2.8  | 31.2 / 2.1 | 53.5 / 2.8 | 41.7 / 2.4     | 38.2 / 2.2 | 49.0 / 2.7|
-| [LLaVA-Video](https://github.com/LLaVA-VL/LLaVA-NeXT)     | Qwen2-7B           | 384²     | 1fps      | 39.5 / 2.2 | 54.7 / 2.8  | 34.8 / 2.1 | 61.9 / 3.1 | 48.6 / 2.6     | 49.7 / 2.6| 52.0 / 2.7|
-| [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA)     | Vicuna-7B          | 224²     | 8       | 21.8 / 1.8 | 42.4 / 2.3  | 21.4 / 1.5 | 28.5 / 2.5 | 41.7 / 2.2     | 36.4 / 2.0| 39.1 / 2.2|
-| [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID)       | Vicuna-7B          | 224²     | 1fps       | 33.3 / 2.3 | 41.8 / 2.3  | 19.6 / 1.5 | 52.2 / 2.7 | 40.3 / 2.2     | 37.0 / 2.1| 40.1 / 2.2|
-| [VILA1.5](https://github.com/NVlabs/VILA)         | LLaMA3-8B          | 336²     | 8       | 45.6 / 2.6 | 49.6 / 2.6  | 25.3 / 1.6 | 58.5 / 2.9 | 50.0 / 2.6     | 41.0 / 2.3| 47.2 / 2.5|
-| Gemini 1.5 Flash     | -                  | ori      | -       | **74.2 / 3.7** | 59.4 / 3.0 | 44.3 / 2.6 | 60.4 / 3.0 | 58.3 / 2.9 | 54.3 / 2.9 | 57.9 / 3.0 |
-| Gemini 2.0 Flash     | -                  | ori      | -    | 57.8 / 3.0 | 58.8 / 3.0 | 48.4 / 2.7  | 56.1 / 2.8 | 52.8 / 2.7 | 48.6 / 2.6 | 55.7 / 2.9 |
-| Gemini 2.5 Flash     | -                  | ori      | -    | 66.7 / 3.1 | 57.9 / 3.0 | **50.3 / 2.7** | 51.6 / 2.9 | 52.5 / 2.6 | **58.4 / 3.0** | 56.3 / 2.9 |
-| GPT-4o              | -                  | ori      | 1fps    | 65.3 / 3.4 | **64.7 / 3.3** | 51.0 / 2.9 | **58.8 / 3.0** | **62.4 / 3.1** | 55.5 / 2.9 | **60.6 / 3.1** |
+| **Human**            | -                  | -        | -       | 70.4 | 87.0  | 83.1 | 91.9 | 94.7     | 96.6 | 87.4 |
+| [ShareGPT4Video](https://github.com/ShareGPT4Omni/ShareGPT4Video)   | LLaMA3-8B          | ori        | 2fps    | 25.5 | 32.6  | 20.7 | 43.3 | 38.9  | 28.3 | 32.9 |
+| [CogVLM2-Video](https://github.com/THUDM/CogVLM2)   | LLaMA3-8B          | 224²     | 24      | 32.2 | 44.5  | 14.0 | 52.7 | 43.1   | 32.4 | 40.3|
+| [Video-LLaMA3](https://github.com/DAMO-NLP-SG/VideoLLaMA3)    | Qwen2.5-7B  | ori  | 1fps    | 53.0 | 51.9  | 38.1 | 50.6 | 41.7 | 50.3 | 49.2 |
+| [InternVL2.5-8B](https://github.com/OpenGVLab/InternVL)  | InternLM2.5-Chat-7B| 448²     | 8       | 61.1 | 54.6  | 42.2 | 58.0 | 44.4  | 52.6 | 53.5 |
+ [LLaVA-OV](https://github.com/LLaVA-VL/LLaVA-NeXT)        | Qwen2.7B           | 384²     | 16      | 61.1 |  56.4  | 29.5 | **65.8** | **58.3** | 50.9 | 54.5|
+| [InternVL2.5-26B](https://github.com/OpenGVLab/InternVL) | InternLM2.5-Chat-20B| 448²    | 8       | **72.5** | 56.9 | 47.4 | 54.1 | 43.1   | 53.2 | 55.0 |
+| [MiniCPM-V 2.6](https://github.com/OpenBMB/MiniCPM-o)   | Qwen2-7B           | 384²     | 1fps      | 53.7 | 46.5  | 37.8 | 28.9 | 37.5 | 41.0 | 40.7 |
+| [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL)       | Qwen2.5-7B         | ori      | 1fps    | 51.0 | 50.1  | 28.2 | 48.5 | 43.1  | 38.2 | 45.5|
+| [LLaVA-Video](https://github.com/LLaVA-VL/LLaVA-NeXT)     | Qwen2-7B           | 384²     | 1fps    | 44.3 | 53.4  | 32.6 | 62.0 | 50.0    | 49.7 | 51.5 |
+| [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA)     | Vicuna-7B          | 224²     | 8      | 22.8 | 41.2  | 21.2 | 47.2 | 38.9  | 35.3 | 38.1 |
+| [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID)       | Vicuna-7B          | 224²     | 1fps    | 32.2 | 40.5  | 20.7 | 49.4 | 36.1  | 41.6 | 39.1|
+| [VILA1.5](https://github.com/NVlabs/VILA)         | LLaMA3-8B          | 336²     | 8       | 49.7 | 50.5  | 25.9 | 60.6 | 47.2| 41.0 | 48.2|
+| Gemini 1.5 Flash     | -                  | ori      | 32       | 72.5 | 54.4 | 43.5 | 50.6| 38.9 | 45.7| 51.8 |
+| Gemini 2.0 Flash     | -                  | ori      | 32   | 61.1 | 54.5 | 50.5  | 39.1 | 47.2 | 49.1 | 49.9 |
+| Gemini 2.5 Flash     | -                  | ori      | 32   | 67.1 | 57.6 | 47.7 | 57.8 | 47.2 | 50.3 | 56.0 |
+| GPT-4o              | -                  | ori      | 32  | 66.4 | **61.2** | **52.6** | 58.8 | 47.2 | **62.4** | **59.3** |
 ## Result Visualization
 ![EgoBlind](misc/vis.jpg)
 
