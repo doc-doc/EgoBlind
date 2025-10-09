@@ -22,7 +22,7 @@ EgoBlind (Accepted to NeurIPS'25 D&B Track) is the first VideoQA dataset collect
 ## Data Examples
 ![EgoBlind](misc/egoblind.jpg)
 ## Download
-We are glad to share that the dataset can be freely used for research purpose, but with video source being cited for distribution. Please download EgoBlind from [Google Driven](https://drive.google.com/drive/folders/1MHY7COE0hARiGe-3uO3_vO5PPLhFx2nZ?usp=sharing) (about 80G). Optionally, you can download the [test set](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing) for evaluation purpose (about 32G).  
+We are glad to share that the dataset can be freely used for research purpose, but with video source being cited for distribution. Please download EgoBlind training set from [Google Driven](https://drive.google.com/drive/folders/1zW8waLCS_8Ay8kOWpCsvF77IeIG9TzOq?usp=sharing), and test set from [Google Driven](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing).  
 
 ## Evaluation
 A random half of the ground-truth answers in the test set are withheld by us, please send a complete prediction file to (junbin@comp.nus.edu.sg) for full evaluation. We provide the evaluation script along with an example full prediction file for testing. Please ensure that you have an OpenAI API key before running the script:
@@ -31,7 +31,7 @@ python eval.py --pred_path example_pred.jsonl --test_path test_half_release.csv
 ```
 The evaluation may take about 18 minutes, and the results will be saved to metrics_xxx.json and results_xxx.json.
 ## Benchmarking
-| Methods              | LLM                | Res.     | #F      | Tool Use   | Information | Navigation | Safety    | Communication | Resource  | Average   |
+| Methods              | LLM                | Res.     | #F      | Tool Use   | Information | Navigation | Safety    | Communication | Resource  | Overall   |
 |----------------------|--------------------|----------|---------|------------|-------------|------------|-----------|----------------|-----------|-----------|
 | **Human**            | -                  | -        | -       | 70.4 | 87.0  | 83.1 | 91.9 | 94.7     | 96.6 | 87.4 |
 | [ShareGPT4Video](https://github.com/ShareGPT4Omni/ShareGPT4Video)   | LLaMA3-8B          | ori        | 2fps    | 25.5 | 32.6  | 20.7 | 43.3 | 38.9  | 28.3 | 32.9 |
