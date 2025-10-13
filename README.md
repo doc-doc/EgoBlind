@@ -22,7 +22,7 @@ EgoBlind (Accepted to NeurIPS'25 D&B Track) is the first VideoQA dataset collect
 ## Data Examples
 ![EgoBlind](misc/egoblind.jpg)
 ## Download
-We are glad to share that the dataset can be freely used for research purpose, but with video source being cited for distribution. Please download EgoBlind training set from [Google Driven](https://drive.google.com/drive/folders/1zW8waLCS_8Ay8kOWpCsvF77IeIG9TzOq?usp=sharing), and test set from [Google Driven](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing).  
+We are glad to share that the dataset can be freely used for research purpose, but with [video source](https://drive.google.com/file/d/1Wob42tJ95DL1VvKad7BPc5QIlHtiuttI/view?usp=sharing) being cited for distribution. Please download EgoBlind training set from [Google Driven](https://drive.google.com/drive/folders/1zW8waLCS_8Ay8kOWpCsvF77IeIG9TzOq?usp=sharing), and test set from [Google Driven](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing).  
 
 ## Evaluation
 A random half of the ground-truth answers in the test set are withheld by us, please send a complete prediction file to (junbin@comp.nus.edu.sg) for full evaluation. We provide the evaluation script along with an example full prediction file for testing. Please ensure that you have an OpenAI API key before running the script:
