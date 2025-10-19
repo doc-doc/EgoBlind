@@ -23,7 +23,7 @@ Before starting, ensure your system meets the following requirements:
 
 ### Step 1: Video Data Preparation
 
-1. Download videos from [Train](https://drive.google.com/drive/folders/1zW8waLCS_8Ay8kOWpCsvF77IeIG9TzOq?usp=sharing and [Test](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing)
+1. Download videos from [Train](https://drive.google.com/drive/folders/1zW8waLCS_8Ay8kOWpCsvF77IeIG9TzOq?usp=sharing) and [Test](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing)
 2. Extract the contents to your workspace directory
 3. Split videos to match question timestamps:
 
@@ -209,4 +209,5 @@ This project builds upon the outstanding work of the following open-source proje
 - **[LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT)**: For providing the LLaVA OneVision model and training frameworks
 
 We sincerely thank these communities for their invaluable contributions to the field of multimodal AI.
+
 
