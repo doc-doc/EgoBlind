@@ -7,7 +7,7 @@ import argparse
 def data_process(row, video_dir):
 
     video_name = Path(video_dir) / f"{row['video_name']}.mp4"
-    start_time = max(row['start-time/s'] / 1000, 0.1) # Ensure start time is at least 0.1 seconds to avoid errors
+    start_time = max(float(row['start-time/s']), 0.1) # Ensure start time is at least 0.1 seconds to avoid errors
 
     with VideoFileClip(video_name) as video:
         clipped_video = video.subclipped(0, start_time)
