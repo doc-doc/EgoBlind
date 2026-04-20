@@ -4,7 +4,7 @@ EgoBlind (Accepted to NeurIPS'25 D&B Track) is the first VideoQA dataset collect
 **Highlights**:
 1) EgoBlind videos reflect the real daily life of the blind and the visually-impaired. Both the questions and answers are in-situation, based on the users' personal activities and intentions.
 2) We provide well-classified question types and multiple ground-truth answer annotations for better evaluation and analysis, the answers are timestamp-specific to support live QA.
-3) GPT-4o and Gemini 2.5 level intelligence only achieves accuracy of 55%~60%, falling behind human by a whopping ~28%.
+3) GPT-4o and Gemini 2.5 level intelligence only achieves accuracy of 55%~60%, falling behind human by ~28%.
 4) Our comprehensive analyses elicit three major challenges: ```Egocentric dynamic scene understanding```, ```In-situatin user intention reasoning```, and ```Helpful and reliable answer generation```.
 5) A blind-specific prompt consistently benefits answering different types of questions, indicating a data difference between EgoBlind and common VideoQA. 
 6) Instruction tuning with EgoBlind training data can remarkably improve the open-source model performances (e.g., improving InternVL2.5-8B by 4.6% from 53.5% to 58.1%).
@@ -26,7 +26,7 @@ EgoBlind (Accepted to NeurIPS'25 D&B Track) is the first VideoQA dataset collect
 We are glad to share that the dataset can be freely used for research purpose, but with [video source](https://drive.google.com/file/d/1Wob42tJ95DL1VvKad7BPc5QIlHtiuttI/view?usp=sharing) being cited for distribution. Please download EgoBlind training set from [Google Driven](https://drive.google.com/drive/folders/1zW8waLCS_8Ay8kOWpCsvF77IeIG9TzOq?usp=sharing), and test set from [Google Driven](https://drive.google.com/drive/folders/1gLcqwKrJcZ7tTbaBI8aWEhPImRdDsGQx?usp=sharing).  
 
 ## Evaluation
-A random half of the ground-truth answers in the test set are withheld by us, please send a complete prediction file to (junbin@comp.nus.edu.sg) for full evaluation. We provide the evaluation script along with an example full prediction file for testing. Please ensure that you have an OpenAI API key before running the script:
+We provide the evaluation script along with an example full prediction file for testing. Please ensure that you have an OpenAI API key before running the script:
 ```
 python eval.py --pred_path example_pred.jsonl --test_path test_half_release.csv
 ```
@@ -56,10 +56,10 @@ The evaluation may take about 18 minutes, and the results will be saved to metri
 
 ## Cite
 ```
-@article{xiao2025egoblind,
+@inproceedings{xiaoegoblind,
   title={EgoBlind: Towards Egocentric Visual Assistance for the Blind},
   author={Xiao, Junbin and Huang, Nanxin and Qiu, Hao and Tao, Zhulin and Yang, Xun and Hong, Richang and Wang, Meng and Yao, Angela},
-  journal={arXiv preprint arXiv:2503.08221},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
   year={2025}
 }
 ```
